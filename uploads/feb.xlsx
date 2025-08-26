@@ -1,0 +1,205 @@
+
+
+### Start of Document: Feb-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1739059200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Create sample BI dashboard for pending file",
+    "Task 2 Description":"Vendor Tagging Release Note Documentation",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hours"
+  },
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Separate report same like call Details Report in MMS with all filtration",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Bug Fixing in Vendor tagging",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"New fields added in the Grid (Axis bank,Phone pe,Gp) and Bug fixed",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"AXIS Checker Process Simplification",
+    "Task 1 Description":"AXIS Checker Process Simplification",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Succesfully Readed mail Using google pop",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Ticketing Flow Analayse",
+    "Task 2 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hours"
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem sub code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739491200000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Ds server sync for the Problem code",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739750400000,
+    "category":"Project",
+    "Sub category":"Aggregator On board",
+    "Task 1 Description":"Get the Count of remaining merchant on board and Creating the Queue",
+    "Task 2 Description":"Adding Category field in Location Master",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hour"
+  },
+  {
+    "date":1739836800000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Adding three Fields in Get Pending Calls in Mobile APP in Ds Server",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739923200000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"AOC Customer Portal -Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"AOC Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.",
+    "Task 1 Time spent":"4 hour",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740009600000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"Philips Customer Portal-Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"Philips Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.Enable Vendor Code field while Create\/Update Dealer",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740096000000,
+    "category":"Project ",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"New Service For getting Response and Push into Table",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Feb-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1740355200000,
+    "category":"Project",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"Call Created using Auto Allocation API using CRM Ticketing Service and Successfull call Push to Merged table and Exception are Synced and Pushed into Exception table in Ticketing System",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740441600000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Email Reader Service is Commited on SVN and Closing the Ticket when the Call Created Successfully in TIcketing System and Delete on Ticket and Same for Exception",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740528000000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Changes in Query and Ticketing Service and get the Response for Both Success,Duplicate,Failure cases and Call Created on the Service request and Status updated as Close",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"8 hour"
+  },
+  {
+    "date":1740614400000,
+    "category":"Project",
+    "Sub category":"Service",
+    "Task 1 Description":"The Update for Call management Details and request activity is checked on App level and manually tested in local and Updated Successfully.",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740700800000,
+    "category":"Project ",
+    "Sub category":"Documentation",
+    "Task 1 Description":"Documentation for Call Agent Login using OTP",
+    "Task 2 Description":"Changes in Ticketing Service",
+    "Task 1 Time spent":"7 hour",
+    "Task 2 Time spent":"1 hour"
+  }
+]
+### End of Document: Feb-4th Week-Worklog.xlsx ###
+

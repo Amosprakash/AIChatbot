@@ -1,0 +1,40 @@
+
+
+### Start of Document: problemcode.xls ###
+[
+  {
+    "Call Type":"Transit Damage",
+    "Brand":"AOC",
+    "Category":"LED TV",
+    "Model":"PN000001",
+    "Value":"Low Audio1",
+    "WrapUpCodes":1,
+    "InitDomain":1,
+    "IsLocked":"No",
+    "AssigntoTechCallagent":"Yes",
+    "ProblemLang":"ผู้"
+  }
+]
+### End of Document: problemcode.xls ###
+
+
+### Start of Document: SIMNumber.xls ###
+[
+  {
+    "Status":"activate",
+    "SimNumber":778899445566778899,
+    "IsLocked":"No"
+  }
+]
+### End of Document: SIMNumber.xls ###
+
+
+### Start of Document: CustomerASPMapping.xls ###
+[
+  {
+    "Mobile Number":9500025311,
+    "ASP":"AEA-Aaditya Palghar"
+  }
+]
+### End of Document: CustomerASPMapping.xls ###
+

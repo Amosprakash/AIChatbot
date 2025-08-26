@@ -1,0 +1,205 @@
+
+
+### Start of Document: April-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1745193600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745280000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in calltype and Subcalltype Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745366400000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in Survery Question Master and RMA Stage Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745452800000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in PM Question Master and RMA Escalation Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1745539200000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in NPS Suvery and Question Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: April-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: April-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Mar-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Mar-5th Week-Worklog.xlsx ###
+

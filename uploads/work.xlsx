@@ -1,0 +1,4491 @@
+
+
+### Start of Document: April-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: April-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: April-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1745193600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745280000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in calltype and Subcalltype Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745366400000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in Survery Question Master and RMA Stage Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745452800000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in PM Question Master and RMA Escalation Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1745539200000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in NPS Suvery and Question Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: Dec-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1733702400000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Ventor Tagging bug fix",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733788800000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733875200000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Documentation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733961600000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Adding Grid Values",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1734048000000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Action master Implement",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Dec-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1739059200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Create sample BI dashboard for pending file",
+    "Task 2 Description":"Vendor Tagging Release Note Documentation",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hours"
+  },
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Separate report same like call Details Report in MMS with all filtration",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Bug Fixing in Vendor tagging",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"New fields added in the Grid (Axis bank,Phone pe,Gp) and Bug fixed",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"AXIS Checker Process Simplification",
+    "Task 1 Description":"AXIS Checker Process Simplification",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Succesfully Readed mail Using google pop",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Ticketing Flow Analayse",
+    "Task 2 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hours"
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem sub code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739491200000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Ds server sync for the Problem code",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739750400000,
+    "category":"Project",
+    "Sub category":"Aggregator On board",
+    "Task 1 Description":"Get the Count of remaining merchant on board and Creating the Queue",
+    "Task 2 Description":"Adding Category field in Location Master",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hour"
+  },
+  {
+    "date":1739836800000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Adding three Fields in Get Pending Calls in Mobile APP in Ds Server",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739923200000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"AOC Customer Portal -Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"AOC Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.",
+    "Task 1 Time spent":"4 hour",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740009600000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"Philips Customer Portal-Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"Philips Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.Enable Vendor Code field while Create\/Update Dealer",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740096000000,
+    "category":"Project ",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"New Service For getting Response and Push into Table",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Feb-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1740355200000,
+    "category":"Project",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"Call Created using Auto Allocation API using CRM Ticketing Service and Successfull call Push to Merged table and Exception are Synced and Pushed into Exception table in Ticketing System",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740441600000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Email Reader Service is Commited on SVN and Closing the Ticket when the Call Created Successfully in TIcketing System and Delete on Ticket and Same for Exception",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740528000000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Changes in Query and Ticketing Service and get the Response for Both Success,Duplicate,Failure cases and Call Created on the Service request and Status updated as Close",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"8 hour"
+  },
+  {
+    "date":1740614400000,
+    "category":"Project",
+    "Sub category":"Service",
+    "Task 1 Description":"The Update for Call management Details and request activity is checked on App level and manually tested in local and Updated Successfully.",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740700800000,
+    "category":"Project ",
+    "Sub category":"Documentation",
+    "Task 1 Description":"Documentation for Call Agent Login using OTP",
+    "Task 2 Description":"Changes in Ticketing Service",
+    "Task 1 Time spent":"7 hour",
+    "Task 2 Time spent":"1 hour"
+  }
+]
+### End of Document: Feb-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1735516800000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735603200000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735689600000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async   R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735776000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async Method  R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735862400000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async Method  R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1736121600000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736208000000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736294400000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736380800000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736467200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1736726400000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736812800000,
+    "category":"Leave",
+    "Sub category":null,
+    "Task 1 Description":null,
+    "Task 2 Description":null,
+    "Task 1 Time spent":null,
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736899200000,
+    "category":"leave",
+    "Sub category":null,
+    "Task 1 Description":null,
+    "Task 2 Description":null,
+    "Task 1 Time spent":null,
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736985600000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737072000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1737331200000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737417600000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737504000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737590400000,
+    "category":"Project",
+    "Sub category":"Vendor Sim Master",
+    "Task 1 Description":"OEM validation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737676800000,
+    "category":"Project",
+    "Sub category":"Vendor Sim Master",
+    "Task 1 Description":"OEM validation",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1737936000000,
+    "category":"Project",
+    "Sub category":"OMNI CAllBACK API Report",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738022400000,
+    "category":"Project",
+    "Sub category":"AOC ",
+    "Task 1 Description":"Excel Import",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738108800000,
+    "category":"Project",
+    "Sub category":"Problem Subcode",
+    "Task 1 Description":"Problem Subcode Type and Grouping",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738195200000,
+    "category":"Project",
+    "Sub category":"Problem Subcode",
+    "Task 1 Description":"Problem Subcode Type and Grouping",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738281600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Email Reader",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: June-1st Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"06-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Inward and Outward Table Design In AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 10:09",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000314"
+  },
+  {
+    "Activity Date":"05-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Desiging GridLookup and Table Design For AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"06\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000313"
+  },
+  {
+    "Activity Date":"04-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Changes Issue Fixed for Responsive",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"05\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000312"
+  },
+  {
+    "Activity Date":"03-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Code Committed and Fixing the Design Issues in Demand",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"04\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000311"
+  }
+]
+### End of Document: June-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: June-2nd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"09-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Inward ,Outward and Despatch Screen Design Completed",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 19:44",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000315"
+  },
+  {
+    "Activity Date":"10-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Acknowlegment Detail Design Changes",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"11\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000316"
+  },
+  {
+    "Activity Date":"11-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Reaserch on AI chatbot using Python and Code Implementation",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 11:13",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000317"
+  },
+  {
+    "Activity Date":"12-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the Chatbot to generate the Query dynmically using GPT Model",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 19:21",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000318"
+  },
+  {
+    "Activity Date":"13-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Voice Training",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"16\/06\/2025 09:47",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000319"
+  }
+]
+### End of Document: June-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: June-3rd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Design Fix in AOC",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000320"
+  },
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate data for forecasting",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:56",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000321"
+  },
+  {
+    "Activity Date":"17-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Forcasting the Data",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"18\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000322"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot for analyse the documents and Excel",
+    "Customer Comments":null,
+    "Effort":5,
+    "Created Date":"18\/06\/2025 19:45",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000323"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC design Issue Fixing for serial no Popup",
+    "Customer Comments":null,
+    "Effort":3,
+    "Created Date":"18\/06\/2025 19:46",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000324"
+  },
+  {
+    "Activity Date":"19-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate the response based on Documents",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"20\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000325"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000326"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Aoc design issue fix",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000327"
+  }
+]
+### End of Document: June-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Mar-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Mar-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: May-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1745798400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745884800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745971200000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1746057600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1746144000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Code Merging For Service Flow ",
+    "Task 2 Description":"Checking the Working Condition on master",
+    "Task 1 Time spent":"6 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: May-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: May-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1745798400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745884800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745971200000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1746057600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1746144000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Code Merging For Service Flow ",
+    "Task 2 Description":"Checking the Working Condition on master",
+    "Task 1 Time spent":"6 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: May-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: May-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1747008000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747094400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747180800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747267200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Bucketing Report",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1747353600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Bucketing Report",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: May-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1748217600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Inward Details",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748304000000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Acknowledgement",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748390400000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Master List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748476800000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Report List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1748563200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Outward ,Inward",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: November-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: November-1st Week-Worklog.xlsx ###
+
+
+
+### Start of Document: April-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: April-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: April-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1745193600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745280000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in calltype and Subcalltype Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745366400000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in Survery Question Master and RMA Stage Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745452800000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in PM Question Master and RMA Escalation Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1745539200000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in NPS Suvery and Question Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: Dec-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1733702400000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Ventor Tagging bug fix",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733788800000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733875200000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Documentation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733961600000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Adding Grid Values",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1734048000000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Action master Implement",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Dec-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1739059200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Create sample BI dashboard for pending file",
+    "Task 2 Description":"Vendor Tagging Release Note Documentation",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hours"
+  },
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Separate report same like call Details Report in MMS with all filtration",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Bug Fixing in Vendor tagging",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"New fields added in the Grid (Axis bank,Phone pe,Gp) and Bug fixed",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"AXIS Checker Process Simplification",
+    "Task 1 Description":"AXIS Checker Process Simplification",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Succesfully Readed mail Using google pop",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Ticketing Flow Analayse",
+    "Task 2 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hours"
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem sub code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739491200000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Ds server sync for the Problem code",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739750400000,
+    "category":"Project",
+    "Sub category":"Aggregator On board",
+    "Task 1 Description":"Get the Count of remaining merchant on board and Creating the Queue",
+    "Task 2 Description":"Adding Category field in Location Master",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hour"
+  },
+  {
+    "date":1739836800000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Adding three Fields in Get Pending Calls in Mobile APP in Ds Server",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739923200000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"AOC Customer Portal -Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"AOC Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.",
+    "Task 1 Time spent":"4 hour",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740009600000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"Philips Customer Portal-Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"Philips Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.Enable Vendor Code field while Create\/Update Dealer",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740096000000,
+    "category":"Project ",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"New Service For getting Response and Push into Table",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Feb-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1740355200000,
+    "category":"Project",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"Call Created using Auto Allocation API using CRM Ticketing Service and Successfull call Push to Merged table and Exception are Synced and Pushed into Exception table in Ticketing System",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740441600000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Email Reader Service is Commited on SVN and Closing the Ticket when the Call Created Successfully in TIcketing System and Delete on Ticket and Same for Exception",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740528000000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Changes in Query and Ticketing Service and get the Response for Both Success,Duplicate,Failure cases and Call Created on the Service request and Status updated as Close",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"8 hour"
+  },
+  {
+    "date":1740614400000,
+    "category":"Project",
+    "Sub category":"Service",
+    "Task 1 Description":"The Update for Call management Details and request activity is checked on App level and manually tested in local and Updated Successfully.",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740700800000,
+    "category":"Project ",
+    "Sub category":"Documentation",
+    "Task 1 Description":"Documentation for Call Agent Login using OTP",
+    "Task 2 Description":"Changes in Ticketing Service",
+    "Task 1 Time spent":"7 hour",
+    "Task 2 Time spent":"1 hour"
+  }
+]
+### End of Document: Feb-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1735516800000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735603200000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735689600000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async   R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735776000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async Method  R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735862400000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async Method  R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1736121600000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736208000000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736294400000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736380800000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736467200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1736726400000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736812800000,
+    "category":"Leave",
+    "Sub category":null,
+    "Task 1 Description":null,
+    "Task 2 Description":null,
+    "Task 1 Time spent":null,
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736899200000,
+    "category":"leave",
+    "Sub category":null,
+    "Task 1 Description":null,
+    "Task 2 Description":null,
+    "Task 1 Time spent":null,
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736985600000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737072000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1737331200000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737417600000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737504000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737590400000,
+    "category":"Project",
+    "Sub category":"Vendor Sim Master",
+    "Task 1 Description":"OEM validation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737676800000,
+    "category":"Project",
+    "Sub category":"Vendor Sim Master",
+    "Task 1 Description":"OEM validation",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1737936000000,
+    "category":"Project",
+    "Sub category":"OMNI CAllBACK API Report",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738022400000,
+    "category":"Project",
+    "Sub category":"AOC ",
+    "Task 1 Description":"Excel Import",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738108800000,
+    "category":"Project",
+    "Sub category":"Problem Subcode",
+    "Task 1 Description":"Problem Subcode Type and Grouping",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738195200000,
+    "category":"Project",
+    "Sub category":"Problem Subcode",
+    "Task 1 Description":"Problem Subcode Type and Grouping",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738281600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Email Reader",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: June-1st Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"06-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Inward and Outward Table Design In AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 10:09",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000314"
+  },
+  {
+    "Activity Date":"05-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Desiging GridLookup and Table Design For AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"06\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000313"
+  },
+  {
+    "Activity Date":"04-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Changes Issue Fixed for Responsive",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"05\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000312"
+  },
+  {
+    "Activity Date":"03-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Code Committed and Fixing the Design Issues in Demand",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"04\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000311"
+  }
+]
+### End of Document: June-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: June-2nd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"09-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Inward ,Outward and Despatch Screen Design Completed",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 19:44",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000315"
+  },
+  {
+    "Activity Date":"10-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Acknowlegment Detail Design Changes",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"11\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000316"
+  },
+  {
+    "Activity Date":"11-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Reaserch on AI chatbot using Python and Code Implementation",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 11:13",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000317"
+  },
+  {
+    "Activity Date":"12-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the Chatbot to generate the Query dynmically using GPT Model",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 19:21",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000318"
+  },
+  {
+    "Activity Date":"13-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Voice Training",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"16\/06\/2025 09:47",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000319"
+  }
+]
+### End of Document: June-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: June-3rd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Design Fix in AOC",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000320"
+  },
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate data for forecasting",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:56",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000321"
+  },
+  {
+    "Activity Date":"17-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Forcasting the Data",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"18\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000322"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot for analyse the documents and Excel",
+    "Customer Comments":null,
+    "Effort":5,
+    "Created Date":"18\/06\/2025 19:45",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000323"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC design Issue Fixing for serial no Popup",
+    "Customer Comments":null,
+    "Effort":3,
+    "Created Date":"18\/06\/2025 19:46",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000324"
+  },
+  {
+    "Activity Date":"19-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate the response based on Documents",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"20\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000325"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000326"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Aoc design issue fix",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000327"
+  }
+]
+### End of Document: June-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Mar-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Mar-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: May-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1745798400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745884800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745971200000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1746057600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1746144000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Code Merging For Service Flow ",
+    "Task 2 Description":"Checking the Working Condition on master",
+    "Task 1 Time spent":"6 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: May-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: May-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1745798400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745884800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745971200000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1746057600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1746144000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Code Merging For Service Flow ",
+    "Task 2 Description":"Checking the Working Condition on master",
+    "Task 1 Time spent":"6 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: May-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: May-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1747008000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747094400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747180800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747267200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Bucketing Report",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1747353600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Bucketing Report",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: May-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1748217600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Inward Details",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748304000000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Acknowledgement",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748390400000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Master List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748476800000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Report List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1748563200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Outward ,Inward",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: November-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: November-1st Week-Worklog.xlsx ###
+
+
+
+### Start of Document: April-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: April-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: April-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1745193600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745280000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in calltype and Subcalltype Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745366400000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in Survery Question Master and RMA Stage Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745452800000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in PM Question Master and RMA Escalation Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1745539200000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in NPS Suvery and Question Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: Dec-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1733702400000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Ventor Tagging bug fix",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733788800000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733875200000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Documentation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733961600000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Adding Grid Values",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1734048000000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Action master Implement",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Dec-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1739059200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Create sample BI dashboard for pending file",
+    "Task 2 Description":"Vendor Tagging Release Note Documentation",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hours"
+  },
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Separate report same like call Details Report in MMS with all filtration",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Bug Fixing in Vendor tagging",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"New fields added in the Grid (Axis bank,Phone pe,Gp) and Bug fixed",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"AXIS Checker Process Simplification",
+    "Task 1 Description":"AXIS Checker Process Simplification",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Succesfully Readed mail Using google pop",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Ticketing Flow Analayse",
+    "Task 2 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hours"
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Adding Fields in Problem sub code master in MMSSBI",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739491200000,
+    "category":"Project",
+    "Sub category":"Problem sub code enable Based on call agent\/Engineer and Update in Engineer",
+    "Task 1 Description":"Ds server sync for the Problem code",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1739750400000,
+    "category":"Project",
+    "Sub category":"Aggregator On board",
+    "Task 1 Description":"Get the Count of remaining merchant on board and Creating the Queue",
+    "Task 2 Description":"Adding Category field in Location Master",
+    "Task 1 Time spent":"5 hour",
+    "Task 2 Time spent":"3 hour"
+  },
+  {
+    "date":1739836800000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Adding three Fields in Get Pending Calls in Mobile APP in Ds Server",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739923200000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"AOC Customer Portal -Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"AOC Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.",
+    "Task 1 Time spent":"4 hour",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740009600000,
+    "category":"Project",
+    "Sub category":"ASP Call Registration",
+    "Task 1 Description":"Philips Customer Portal-Provide Option to capture Vendor Code in New User Creation Screen. And validate whether given Vendor Code is valid or not.",
+    "Task 2 Description":"Philips Customer Portal-Provide Option to update Vendor Code in Profile update screen. And validate whether given Vendor Code is valid or not.Enable Vendor Code field while Create\/Update Dealer",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hour"
+  },
+  {
+    "date":1740096000000,
+    "category":"Project ",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"New Service For getting Response and Push into Table",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Feb-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1740355200000,
+    "category":"Project",
+    "Sub category":"Service Creation",
+    "Task 1 Description":"Call Created using Auto Allocation API using CRM Ticketing Service and Successfull call Push to Merged table and Exception are Synced and Pushed into Exception table in Ticketing System",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740441600000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Email Reader Service is Commited on SVN and Closing the Ticket when the Call Created Successfully in TIcketing System and Delete on Ticket and Same for Exception",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740528000000,
+    "category":"Project",
+    "Sub category":"Mobile App API",
+    "Task 1 Description":"Changes in Query and Ticketing Service and get the Response for Both Success,Duplicate,Failure cases and Call Created on the Service request and Status updated as Close",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"8 hour"
+  },
+  {
+    "date":1740614400000,
+    "category":"Project",
+    "Sub category":"Service",
+    "Task 1 Description":"The Update for Call management Details and request activity is checked on App level and manually tested in local and Updated Successfully.",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1740700800000,
+    "category":"Project ",
+    "Sub category":"Documentation",
+    "Task 1 Description":"Documentation for Call Agent Login using OTP",
+    "Task 2 Description":"Changes in Ticketing Service",
+    "Task 1 Time spent":"7 hour",
+    "Task 2 Time spent":"1 hour"
+  }
+]
+### End of Document: Feb-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1735516800000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735603200000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735689600000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async   R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735776000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async Method  R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1735862400000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Async Method  R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1736121600000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736208000000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736294400000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736380800000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736467200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1736726400000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Async Method R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736812800000,
+    "category":"Leave",
+    "Sub category":null,
+    "Task 1 Description":null,
+    "Task 2 Description":null,
+    "Task 1 Time spent":null,
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736899200000,
+    "category":"leave",
+    "Sub category":null,
+    "Task 1 Description":null,
+    "Task 2 Description":null,
+    "Task 1 Time spent":null,
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1736985600000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737072000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1737331200000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737417600000,
+    "category":"Project",
+    "Sub category":"MMS Dashboard Version 8 (Dashboard Summary)",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737504000000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Dynamic Content R&D",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737590400000,
+    "category":"Project",
+    "Sub category":"Vendor Sim Master",
+    "Task 1 Description":"OEM validation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1737676800000,
+    "category":"Project",
+    "Sub category":"Vendor Sim Master",
+    "Task 1 Description":"OEM validation",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: jan-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1737936000000,
+    "category":"Project",
+    "Sub category":"OMNI CAllBACK API Report",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738022400000,
+    "category":"Project",
+    "Sub category":"AOC ",
+    "Task 1 Description":"Excel Import",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738108800000,
+    "category":"Project",
+    "Sub category":"Problem Subcode",
+    "Task 1 Description":"Problem Subcode Type and Grouping",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738195200000,
+    "category":"Project",
+    "Sub category":"Problem Subcode",
+    "Task 1 Description":"Problem Subcode Type and Grouping",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1738281600000,
+    "category":"Project",
+    "Sub category":"Email Reader",
+    "Task 1 Description":"Email Reader",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: jan-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: June-1st Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"06-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Inward and Outward Table Design In AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 10:09",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000314"
+  },
+  {
+    "Activity Date":"05-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Desiging GridLookup and Table Design For AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"06\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000313"
+  },
+  {
+    "Activity Date":"04-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Changes Issue Fixed for Responsive",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"05\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000312"
+  },
+  {
+    "Activity Date":"03-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Code Committed and Fixing the Design Issues in Demand",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"04\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000311"
+  }
+]
+### End of Document: June-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: June-2nd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"09-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Inward ,Outward and Despatch Screen Design Completed",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 19:44",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000315"
+  },
+  {
+    "Activity Date":"10-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Acknowlegment Detail Design Changes",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"11\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000316"
+  },
+  {
+    "Activity Date":"11-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Reaserch on AI chatbot using Python and Code Implementation",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 11:13",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000317"
+  },
+  {
+    "Activity Date":"12-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the Chatbot to generate the Query dynmically using GPT Model",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 19:21",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000318"
+  },
+  {
+    "Activity Date":"13-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Voice Training",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"16\/06\/2025 09:47",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000319"
+  }
+]
+### End of Document: June-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: June-3rd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Design Fix in AOC",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000320"
+  },
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate data for forecasting",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:56",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000321"
+  },
+  {
+    "Activity Date":"17-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Forcasting the Data",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"18\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000322"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot for analyse the documents and Excel",
+    "Customer Comments":null,
+    "Effort":5,
+    "Created Date":"18\/06\/2025 19:45",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000323"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC design Issue Fixing for serial no Popup",
+    "Customer Comments":null,
+    "Effort":3,
+    "Created Date":"18\/06\/2025 19:46",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000324"
+  },
+  {
+    "Activity Date":"19-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate the response based on Documents",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"20\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000325"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000326"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Aoc design issue fix",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000327"
+  }
+]
+### End of Document: June-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: Mar-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: Mar-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: May-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1745798400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745884800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745971200000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1746057600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1746144000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Code Merging For Service Flow ",
+    "Task 2 Description":"Checking the Working Condition on master",
+    "Task 1 Time spent":"6 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: May-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: May-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1745798400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745884800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745971200000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1746057600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1746144000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Code Merging For Service Flow ",
+    "Task 2 Description":"Checking the Working Condition on master",
+    "Task 1 Time spent":"6 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: May-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: May-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1747008000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747094400000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in Login and Engineer Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747180800000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in All Home Masters Pages",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1747267200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Bucketing Report",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1747353600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Bucketing Report",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: May-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1748217600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Inward Details",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748304000000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Acknowledgement",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748390400000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Master List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748476800000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Report List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1748563200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Outward ,Inward",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-5th Week-Worklog.xlsx ###
+
+
+### Start of Document: November-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: November-1st Week-Worklog.xlsx ###
+

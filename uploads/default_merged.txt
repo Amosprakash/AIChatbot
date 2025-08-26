@@ -1,0 +1,3569 @@
+
+
+### Start of Document: Cmd.txt ###
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+
+.\bin\windows\kafka-server-start.bat config\server.properties
+
+
+.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic title
+
+
+.\bin\windows\kafka-topics.bat --list  --bootstrap-server localhost:9092
+
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning
+### End of Document: Cmd.txt ###
+
+
+### Start of Document: duplicate.txt ###
+Activity Code: Date:		
+II-0000030     9/8/24
+II-0000035     16/8/24
+II-0000036     16/8/24
+II-0000044     22/8/24
+II-0000016     26/8/24
+### End of Document: duplicate.txt ###
+
+
+### Start of Document: Kafka Queue in C#.txt ###
+Implement Kafka queue in Message Queue
+
+Steps In System:
+	1.Setup Apache Kafka server in the System  (Need Java)
+		
+			link to download:https://kafka.apache.org/downloads.
+
+	2.Create kafka server , Topic Name , partition and Replication for the Kafka Queue in cmd.
+		
+		a.kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+	3.Add the server name ,Topic name and Consuemer Group Id in web.config.
+Steps in Visual Studio:
+
+	1.Create Producer.cs and Consumer.cs in the previously Created MSMQ Class in ASync and Sync method 
+
+		a. Install-Package Confluent.Kafka in Nuget Package console
+
+	2.Change All the references that made for Msmq in the project using the kafka queue. 
+
+	3.In addition to integrating Kafka queue Can be  create this Producer and Consumer Function as  a service.
+
+Difference from the MSMQ:
+
+	1.It doesn't create a message queue system in the task service in computer Management.
+	
+CMD :
+	1.we can reterive the Message status using CMD 
+
+		 a.List Topics: kafka-topics.sh --list --bootstrap-server localhost:9092
+		 b. Describe a Topic:kafka-topics.sh --describe --topic <topic_name> --bootstrap-server localhost:9092
+		 c.Consume Messages from a Topic:kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
+		 d. Produce Messages to a Topic:kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
+		 e.Get Topic Offsets:kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic <topic_name> --time -1
+		 f.Delete a Topic:kafka-topics.sh --delete --topic <topic_name> --bootstrap-server localhost:9092
+	
+	Reference : https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+### End of Document: Kafka Queue in C#.txt ###
+
+
+### Start of Document: ML.txt ###
+Machine Learning Model In AI
+
+Models:
+	1.Classification Models:
+			 1.Logistic Regression
+			 2.Decision Trees Classification
+			 3.Random Forest Classification
+			 4.Support Vector Machines Classification (SVM)
+			 5.k-Nearest Neighbors (k-NN)
+			 6.Naive Bayes
+			 7.Neural Networks
+	2.Regression Models:
+			 1.Linear Regression
+			 2.Polynomial Regression
+			 3.Random Forest for Regression
+			 4.Support Vector Regression (SVR)
+			 5.k-Nearest Neighbors (k-NN) for Regression
+    			 6.Neural Networks for Regression
+
+Used Model For Predicting The downtime:
+		
+   	1.KNNeighbors TimeseriesRegression
+### End of Document: ML.txt ###
+
+
+### Start of Document: Training Activites.txt ###
+DAY 1-2 : Learned Python Basic ML models
+
+DAY 3-4 :learned To train the datasets using Ml	
+		
+	1. predicting the rainfall using linear method:
+		 
+
+DAY 4-5: Learned how to create flask app and load the Trained model
+
+	1. predicting the downtime:
+		
+		 path for the file D:\pythonproject\app
+ 	
+	2. creating sentiment analysis using the NLP model:
+		
+		path for the file D:\pythonproject\NLP
+
+Day 6-7:Learned to host dataset in the apache server.
+
+	1.Hosting the predicted downtime in apache server   
+ 
+		linl for the server:http://192.168.0.109:8080/
+### End of Document: Training Activites.txt ###
+
+
+
+### Start of Document: Cmd.txt ###
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+
+.\bin\windows\kafka-server-start.bat config\server.properties
+
+
+.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic title
+
+
+.\bin\windows\kafka-topics.bat --list  --bootstrap-server localhost:9092
+
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning
+### End of Document: Cmd.txt ###
+
+
+### Start of Document: duplicate.txt ###
+Activity Code: Date:		
+II-0000030     9/8/24
+II-0000035     16/8/24
+II-0000036     16/8/24
+II-0000044     22/8/24
+II-0000016     26/8/24
+### End of Document: duplicate.txt ###
+
+
+### Start of Document: Kafka Queue in C#.txt ###
+Implement Kafka queue in Message Queue
+
+Steps In System:
+	1.Setup Apache Kafka server in the System  (Need Java)
+		
+			link to download:https://kafka.apache.org/downloads.
+
+	2.Create kafka server , Topic Name , partition and Replication for the Kafka Queue in cmd.
+		
+		a.kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+	3.Add the server name ,Topic name and Consuemer Group Id in web.config.
+Steps in Visual Studio:
+
+	1.Create Producer.cs and Consumer.cs in the previously Created MSMQ Class in ASync and Sync method 
+
+		a. Install-Package Confluent.Kafka in Nuget Package console
+
+	2.Change All the references that made for Msmq in the project using the kafka queue. 
+
+	3.In addition to integrating Kafka queue Can be  create this Producer and Consumer Function as  a service.
+
+Difference from the MSMQ:
+
+	1.It doesn't create a message queue system in the task service in computer Management.
+	
+CMD :
+	1.we can reterive the Message status using CMD 
+
+		 a.List Topics: kafka-topics.sh --list --bootstrap-server localhost:9092
+		 b. Describe a Topic:kafka-topics.sh --describe --topic <topic_name> --bootstrap-server localhost:9092
+		 c.Consume Messages from a Topic:kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
+		 d. Produce Messages to a Topic:kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
+		 e.Get Topic Offsets:kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic <topic_name> --time -1
+		 f.Delete a Topic:kafka-topics.sh --delete --topic <topic_name> --bootstrap-server localhost:9092
+	
+	Reference : https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+### End of Document: Kafka Queue in C#.txt ###
+
+
+### Start of Document: ML.txt ###
+Machine Learning Model In AI
+
+Models:
+	1.Classification Models:
+			 1.Logistic Regression
+			 2.Decision Trees Classification
+			 3.Random Forest Classification
+			 4.Support Vector Machines Classification (SVM)
+			 5.k-Nearest Neighbors (k-NN)
+			 6.Naive Bayes
+			 7.Neural Networks
+	2.Regression Models:
+			 1.Linear Regression
+			 2.Polynomial Regression
+			 3.Random Forest for Regression
+			 4.Support Vector Regression (SVR)
+			 5.k-Nearest Neighbors (k-NN) for Regression
+    			 6.Neural Networks for Regression
+
+Used Model For Predicting The downtime:
+		
+   	1.KNNeighbors TimeseriesRegression
+### End of Document: ML.txt ###
+
+
+### Start of Document: Training Activites.txt ###
+DAY 1-2 : Learned Python Basic ML models
+
+DAY 3-4 :learned To train the datasets using Ml	
+		
+	1. predicting the rainfall using linear method:
+		 
+
+DAY 4-5: Learned how to create flask app and load the Trained model
+
+	1. predicting the downtime:
+		
+		 path for the file D:\pythonproject\app
+ 	
+	2. creating sentiment analysis using the NLP model:
+		
+		path for the file D:\pythonproject\NLP
+
+Day 6-7:Learned to host dataset in the apache server.
+
+	1.Hosting the predicted downtime in apache server   
+ 
+		linl for the server:http://192.168.0.109:8080/
+### End of Document: Training Activites.txt ###
+
+
+
+### Start of Document: Cmd.txt ###
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+
+.\bin\windows\kafka-server-start.bat config\server.properties
+
+
+.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic title
+
+
+.\bin\windows\kafka-topics.bat --list  --bootstrap-server localhost:9092
+
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning
+### End of Document: Cmd.txt ###
+
+
+### Start of Document: duplicate.txt ###
+Activity Code: Date:		
+II-0000030     9/8/24
+II-0000035     16/8/24
+II-0000036     16/8/24
+II-0000044     22/8/24
+II-0000016     26/8/24
+### End of Document: duplicate.txt ###
+
+
+### Start of Document: Kafka Queue in C#.txt ###
+Implement Kafka queue in Message Queue
+
+Steps In System:
+	1.Setup Apache Kafka server in the System  (Need Java)
+		
+			link to download:https://kafka.apache.org/downloads.
+
+	2.Create kafka server , Topic Name , partition and Replication for the Kafka Queue in cmd.
+		
+		a.kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+	3.Add the server name ,Topic name and Consuemer Group Id in web.config.
+Steps in Visual Studio:
+
+	1.Create Producer.cs and Consumer.cs in the previously Created MSMQ Class in ASync and Sync method 
+
+		a. Install-Package Confluent.Kafka in Nuget Package console
+
+	2.Change All the references that made for Msmq in the project using the kafka queue. 
+
+	3.In addition to integrating Kafka queue Can be  create this Producer and Consumer Function as  a service.
+
+Difference from the MSMQ:
+
+	1.It doesn't create a message queue system in the task service in computer Management.
+	
+CMD :
+	1.we can reterive the Message status using CMD 
+
+		 a.List Topics: kafka-topics.sh --list --bootstrap-server localhost:9092
+		 b. Describe a Topic:kafka-topics.sh --describe --topic <topic_name> --bootstrap-server localhost:9092
+		 c.Consume Messages from a Topic:kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
+		 d. Produce Messages to a Topic:kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
+		 e.Get Topic Offsets:kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic <topic_name> --time -1
+		 f.Delete a Topic:kafka-topics.sh --delete --topic <topic_name> --bootstrap-server localhost:9092
+	
+	Reference : https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+### End of Document: Kafka Queue in C#.txt ###
+
+
+### Start of Document: ML.txt ###
+Machine Learning Model In AI
+
+Models:
+	1.Classification Models:
+			 1.Logistic Regression
+			 2.Decision Trees Classification
+			 3.Random Forest Classification
+			 4.Support Vector Machines Classification (SVM)
+			 5.k-Nearest Neighbors (k-NN)
+			 6.Naive Bayes
+			 7.Neural Networks
+	2.Regression Models:
+			 1.Linear Regression
+			 2.Polynomial Regression
+			 3.Random Forest for Regression
+			 4.Support Vector Regression (SVR)
+			 5.k-Nearest Neighbors (k-NN) for Regression
+    			 6.Neural Networks for Regression
+
+Used Model For Predicting The downtime:
+		
+   	1.KNNeighbors TimeseriesRegression
+### End of Document: ML.txt ###
+
+
+### Start of Document: Training Activites.txt ###
+DAY 1-2 : Learned Python Basic ML models
+
+DAY 3-4 :learned To train the datasets using Ml	
+		
+	1. predicting the rainfall using linear method:
+		 
+
+DAY 4-5: Learned how to create flask app and load the Trained model
+
+	1. predicting the downtime:
+		
+		 path for the file D:\pythonproject\app
+ 	
+	2. creating sentiment analysis using the NLP model:
+		
+		path for the file D:\pythonproject\NLP
+
+Day 6-7:Learned to host dataset in the apache server.
+
+	1.Hosting the predicted downtime in apache server   
+ 
+		linl for the server:http://192.168.0.109:8080/
+### End of Document: Training Activites.txt ###
+
+
+
+### Start of Document: Cmd.txt ###
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+
+.\bin\windows\kafka-server-start.bat config\server.properties
+
+
+.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic title
+
+
+.\bin\windows\kafka-topics.bat --list  --bootstrap-server localhost:9092
+
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning
+### End of Document: Cmd.txt ###
+
+
+### Start of Document: duplicate.txt ###
+Activity Code: Date:		
+II-0000030     9/8/24
+II-0000035     16/8/24
+II-0000036     16/8/24
+II-0000044     22/8/24
+II-0000016     26/8/24
+### End of Document: duplicate.txt ###
+
+
+### Start of Document: Kafka Queue in C#.txt ###
+Implement Kafka queue in Message Queue
+
+Steps In System:
+	1.Setup Apache Kafka server in the System  (Need Java)
+		
+			link to download:https://kafka.apache.org/downloads.
+
+	2.Create kafka server , Topic Name , partition and Replication for the Kafka Queue in cmd.
+		
+		a.kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+	3.Add the server name ,Topic name and Consuemer Group Id in web.config.
+Steps in Visual Studio:
+
+	1.Create Producer.cs and Consumer.cs in the previously Created MSMQ Class in ASync and Sync method 
+
+		a. Install-Package Confluent.Kafka in Nuget Package console
+
+	2.Change All the references that made for Msmq in the project using the kafka queue. 
+
+	3.In addition to integrating Kafka queue Can be  create this Producer and Consumer Function as  a service.
+
+Difference from the MSMQ:
+
+	1.It doesn't create a message queue system in the task service in computer Management.
+	
+CMD :
+	1.we can reterive the Message status using CMD 
+
+		 a.List Topics: kafka-topics.sh --list --bootstrap-server localhost:9092
+		 b. Describe a Topic:kafka-topics.sh --describe --topic <topic_name> --bootstrap-server localhost:9092
+		 c.Consume Messages from a Topic:kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
+		 d. Produce Messages to a Topic:kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
+		 e.Get Topic Offsets:kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic <topic_name> --time -1
+		 f.Delete a Topic:kafka-topics.sh --delete --topic <topic_name> --bootstrap-server localhost:9092
+	
+	Reference : https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+### End of Document: Kafka Queue in C#.txt ###
+
+
+### Start of Document: ML.txt ###
+Machine Learning Model In AI
+
+Models:
+	1.Classification Models:
+			 1.Logistic Regression
+			 2.Decision Trees Classification
+			 3.Random Forest Classification
+			 4.Support Vector Machines Classification (SVM)
+			 5.k-Nearest Neighbors (k-NN)
+			 6.Naive Bayes
+			 7.Neural Networks
+	2.Regression Models:
+			 1.Linear Regression
+			 2.Polynomial Regression
+			 3.Random Forest for Regression
+			 4.Support Vector Regression (SVR)
+			 5.k-Nearest Neighbors (k-NN) for Regression
+    			 6.Neural Networks for Regression
+
+Used Model For Predicting The downtime:
+		
+   	1.KNNeighbors TimeseriesRegression
+### End of Document: ML.txt ###
+
+
+### Start of Document: Training Activites.txt ###
+DAY 1-2 : Learned Python Basic ML models
+
+DAY 3-4 :learned To train the datasets using Ml	
+		
+	1. predicting the rainfall using linear method:
+		 
+
+DAY 4-5: Learned how to create flask app and load the Trained model
+
+	1. predicting the downtime:
+		
+		 path for the file D:\pythonproject\app
+ 	
+	2. creating sentiment analysis using the NLP model:
+		
+		path for the file D:\pythonproject\NLP
+
+Day 6-7:Learned to host dataset in the apache server.
+
+	1.Hosting the predicted downtime in apache server   
+ 
+		linl for the server:http://192.168.0.109:8080/
+### End of Document: Training Activites.txt ###
+
+
+
+### Start of Document: Cmd.txt ###
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+
+.\bin\windows\kafka-server-start.bat config\server.properties
+
+
+.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic title
+
+
+.\bin\windows\kafka-topics.bat --list  --bootstrap-server localhost:9092
+
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning
+### End of Document: Cmd.txt ###
+
+
+### Start of Document: duplicate.txt ###
+Activity Code: Date:		
+II-0000030     9/8/24
+II-0000035     16/8/24
+II-0000036     16/8/24
+II-0000044     22/8/24
+II-0000016     26/8/24
+### End of Document: duplicate.txt ###
+
+
+### Start of Document: Kafka Queue in C#.txt ###
+Implement Kafka queue in Message Queue
+
+Steps In System:
+	1.Setup Apache Kafka server in the System  (Need Java)
+		
+			link to download:https://kafka.apache.org/downloads.
+
+	2.Create kafka server , Topic Name , partition and Replication for the Kafka Queue in cmd.
+		
+		a.kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+
+	3.Add the server name ,Topic name and Consuemer Group Id in web.config.
+Steps in Visual Studio:
+
+	1.Create Producer.cs and Consumer.cs in the previously Created MSMQ Class in ASync and Sync method 
+
+		a. Install-Package Confluent.Kafka in Nuget Package console
+
+	2.Change All the references that made for Msmq in the project using the kafka queue. 
+
+	3.In addition to integrating Kafka queue Can be  create this Producer and Consumer Function as  a service.
+
+Difference from the MSMQ:
+
+	1.It doesn't create a message queue system in the task service in computer Management.
+	
+CMD :
+	1.we can reterive the Message status using CMD 
+
+		 a.List Topics: kafka-topics.sh --list --bootstrap-server localhost:9092
+		 b. Describe a Topic:kafka-topics.sh --describe --topic <topic_name> --bootstrap-server localhost:9092
+		 c.Consume Messages from a Topic:kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
+		 d. Produce Messages to a Topic:kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
+		 e.Get Topic Offsets:kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic <topic_name> --time -1
+		 f.Delete a Topic:kafka-topics.sh --delete --topic <topic_name> --bootstrap-server localhost:9092
+	
+	Reference : https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+### End of Document: Kafka Queue in C#.txt ###
+
+
+### Start of Document: ML.txt ###
+Machine Learning Model In AI
+
+Models:
+	1.Classification Models:
+			 1.Logistic Regression
+			 2.Decision Trees Classification
+			 3.Random Forest Classification
+			 4.Support Vector Machines Classification (SVM)
+			 5.k-Nearest Neighbors (k-NN)
+			 6.Naive Bayes
+			 7.Neural Networks
+	2.Regression Models:
+			 1.Linear Regression
+			 2.Polynomial Regression
+			 3.Random Forest for Regression
+			 4.Support Vector Regression (SVR)
+			 5.k-Nearest Neighbors (k-NN) for Regression
+    			 6.Neural Networks for Regression
+
+Used Model For Predicting The downtime:
+		
+   	1.KNNeighbors TimeseriesRegression
+### End of Document: ML.txt ###
+
+
+### Start of Document: Training Activites.txt ###
+DAY 1-2 : Learned Python Basic ML models
+
+DAY 3-4 :learned To train the datasets using Ml	
+		
+	1. predicting the rainfall using linear method:
+		 
+
+DAY 4-5: Learned how to create flask app and load the Trained model
+
+	1. predicting the downtime:
+		
+		 path for the file D:\pythonproject\app
+ 	
+	2. creating sentiment analysis using the NLP model:
+		
+		path for the file D:\pythonproject\NLP
+
+Day 6-7:Learned to host dataset in the apache server.
+
+	1.Hosting the predicted downtime in apache server   
+ 
+		linl for the server:http://192.168.0.109:8080/
+### End of Document: Training Activites.txt ###
+
+
+
+### Start of Document: Installation.xls ###
+[
+  {
+    "MID":22000000371568,
+    "Asset owner":"State Bank of India",
+    "Con Type":"Android",
+    "Model":"P1000",
+    "IMEI Number":null,
+    "No.of TID":1,
+    "Bank Mail Date":1507804200000,
+    "Exhibition":"No",
+    "From Date":null,
+    "To Date":null,
+    "Business Model":null,
+    "SIM Carrier":null,
+    "Remarks":"Smart EMI Testing",
+    "Pos Identifier":null,
+    "DCC Flag":null,
+    "Mark Up Rate":null,
+    "DCC MDR":null,
+    "Merchant Re-Imbursement":null,
+    "NET DCC MDR":null,
+    "All Currencies Supported":null,
+    "EMI":null,
+    "EMI Tenure":null,
+    "One Time Setup Fee":null,
+    "MOTO":null,
+    "E-Charge Slip":null,
+    "Pre-Auth":null,
+    "Brand":null,
+    "Bank":null,
+    "Debit":null,
+    "PlutusBussinessModel":"Plutus Multi Acquirer",
+    "FOS_Name":"test",
+    "FOS_ID":1,
+    "FOS\/FRE":"FRE",
+    "ZSM NAME":"test2",
+    "ZSM Emp Code":"FOS001",
+    "CSM\/ZSM":"ZSM",
+    "DC EMI FEE MODE":null,
+    "DC EMI FEE":null,
+    "MOPAD":null,
+    "Diners":null,
+    "Discover":null,
+    "JCB":null,
+    "CUPI":null,
+    "OtherChargesFrequency":null,
+    "OtherChargesAmount":null,
+    "OtherChargesCriteria":null,
+    "SecChargFreq":null,
+    "SecChargeAmt":null,
+    "secchargetypeofterminal":null,
+    "AMCChargesFrequency":null,
+    "AMCChargesAmount":null,
+    "eChargeslipsChargesFrequency":null,
+    "eChargeslipsChargesAmount":null,
+    "ServFeeFreq":null,
+    "ServFeeAmt":null,
+    "Set-UpFeeAmount":null,
+    "Rental":null,
+    "RentalStartDate":null,
+    "RentalEndDate":null,
+    "RentalPerc":null,
+    "RentalConcValue":null,
+    "RentalRefNoApp":null,
+    "InstaCharg":null,
+    "InstaChargStartDate":null,
+    "InstaChargEndDate":null,
+    "InstaChargPerc":null,
+    "InstaChargConcValue":null,
+    "InstaChargRefNoApp":null,
+    "BSFeesFlag":null,
+    "BSFeesStartDate":null,
+    "BSFeesValidtill":null,
+    "BSFeesPercentage":null,
+    "BSFeesValue":null,
+    "BSFeesRefNoApprover":null,
+    "BSConcessionType":null,
+    "DeinstallationFlag":null,
+    "Unnamed: 76":null,
+    "DeinstallationStartDate":null,
+    "DeinstallationValidtill":null,
+    "DeinstallationPercentage":null,
+    "DeinstallationValue":null,
+    "DeinstallationRefNoApprover":null,
+    "DeinstallationConcessionType":null,
+    "RentConcessionType":null,
+    "InstallationChargesConcessionType":null,
+    " BHIMQRCODE":1
+  }
+]
+### End of Document: Installation.xls ###
+
+
+### Start of Document: Pdf Generate.txt ###
+import os
+import time
+from flask import Flask, render_template, jsonify, request, send_file
+from pyhtml2pdf import converter
+from urllib.parse import urlparse, parse_qs
+
+app = Flask(__name__)
+
+# Define the two folder paths for saving PDFs
+FOLDER_SPINCO = 'spinco_folder'
+FOLDER_OTHER = 'other_folder'
+
+# Check if folders exist and create them if not
+if not os.path.exists(FOLDER_SPINCO):
+    os.makedirs(FOLDER_SPINCO)
+if not os.path.exists(FOLDER_OTHER):
+    os.makedirs(FOLDER_OTHER)
+
+def get_unique_filename(folder, filename):
+    """
+    Checks if the file already exists in the folder. If it does, appends a number (1, 2, 3, ...)
+    to the filename until a unique name is found.
+    """
+    base_name, ext = os.path.splitext(filename)
+    counter = 1
+    new_filename = filename
+    while os.path.exists(os.path.join(folder, new_filename)):
+        new_filename = f"{base_name}({counter}){ext}"
+        counter += 1
+    return new_filename
+
+@app.route("/")
+def index():
+    return "url_to_pdf_convertor"
+
+@app.route("/url")
+def change_ip():
+    # Get the 'name' parameter from the URL (which contains the URL to be converted)
+    name = request.args.get('name')
+
+    # Check if the URL contains "SPINCOTECHLLP"
+    if "SPINCOTECHLLP" in name:
+        folder = FOLDER_SPINCO  # Save to spinco_folder
+    else:
+        folder = FOLDER_OTHER  # Save to other_folder
+
+    # Generate the PDF file name based on the query parameters
+    if "qNo" in name:
+        url = name
+        parsed_url = urlparse(url)
+        # Extract the qNo value from the query string and clean it up (e.g., replace slashes with dashes)
+        hello_world = parse_qs(parsed_url.query)['qNo'][0].replace("/", "-")
+        output_pdf = hello_world + ".pdf"
+    else:
+        output_pdf = 'sample.pdf'
+
+    # Convert the URL to a PDF
+    converter.convert(name, output_pdf, timeout=4, print_options={"scale": 1, "paperHeight": 12})
+
+    # Get a unique filename if a file with the same name exists
+    output_pdf_unique = get_unique_filename(folder, output_pdf)
+
+    # Define the output file path based on the chosen folder
+    output_pdf_path = os.path.join(folder, output_pdf_unique)
+
+    # Move the generated PDF to the correct folder
+    os.rename(output_pdf, output_pdf_path)
+
+    # Send the PDF file as a download
+    return send_file(output_pdf_path, as_attachment=True)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0',port='3000')
+### End of Document: Pdf Generate.txt ###
+
+
+### Start of Document: Spinco 7.0 Test Report.xlsx ###
+[
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Project Summary report",
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Product Name :",
+    "Unnamed: 1":"Spinco 7.0 App",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Client Name:",
+    "Unnamed: 6":"Spinco",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Project Manager",
+    "Unnamed: 12":"Selvaraj",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Developer Name",
+    "Unnamed: 1":"Arun,Shahul,Karthick,Amous,Abdur Rahman",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Tester Name",
+    "Unnamed: 6":"Mahaddeer",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Type Of Test",
+    "Unnamed: 12":"Integration Testing",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Iteration cycle",
+    "Unnamed: 1":"Start date",
+    "Unnamed: 2":"End date",
+    "Unnamed: 3":"Status",
+    "Unnamed: 4":"Total issue raised",
+    "Unnamed: 5":"Newly Open issue",
+    "Unnamed: 6":"Closed issue from previous iteration",
+    "Unnamed: 7":"Conditionally closed ",
+    "Unnamed: 8":"Invalid issue",
+    "Unnamed: 9":"Reopen issue",
+    "Unnamed: 10":"Retesting pending",
+    "Unnamed: 11":"High issue",
+    "Unnamed: 12":"Medium issue",
+    "Unnamed: 13":"Low issue"
+  },
+  {
+    "Unnamed: 0":1,
+    "Unnamed: 1":1720656000000,
+    "Unnamed: 2":1723334400000,
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":105,
+    "Unnamed: 5":105,
+    "Unnamed: 6":0,
+    "Unnamed: 7":0,
+    "Unnamed: 8":0,
+    "Unnamed: 9":0,
+    "Unnamed: 10":0,
+    "Unnamed: 11":46,
+    "Unnamed: 12":52,
+    "Unnamed: 13":7
+  },
+  {
+    "Unnamed: 0":2,
+    "Unnamed: 1":"15\/11\/2024",
+    "Unnamed: 2":"15\/11\/2024",
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":73,
+    "Unnamed: 5":41,
+    "Unnamed: 6":67,
+    "Unnamed: 7":6,
+    "Unnamed: 8":0,
+    "Unnamed: 9":29,
+    "Unnamed: 10":3,
+    "Unnamed: 11":33,
+    "Unnamed: 12":36,
+    "Unnamed: 13":4
+  },
+  {
+    "Unnamed: 0":3,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":4,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":5,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":6,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":7,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":8,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":9,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":" ",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":10,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  }
+]
+### End of Document: Spinco 7.0 Test Report.xlsx ###
+
+
+### Start of Document: October-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: September-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1729468800000,
+    "category":"UI & UX Design",
+    "Sub category":"Dashboard Creation",
+    "Task 1 Description":"Creating Pending Call dashboard For Malaysia ",
+    "Task 2 Description":"NUll",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729555200000,
+    "category":"R& D",
+    "Sub category":"Thakral",
+    "Task 1 Description":"Understanding The Work flow of the Stages in Installation on Thakaral",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729641600000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Creating Verification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729728000000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"adding Attachment page onVerification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729814400000,
+    "category":"R& D",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Implement the Verification Page",
+    "Task 2 Description":"Learing About SSO",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: September-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: October-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1728259200000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRm",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1728345600000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRM",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Creating Excel of Mobile API",
+    "Task 1 Time spent":"6hour",
+    "Task 2 Time spent":"2 hour"
+  },
+  {
+    "date":1728432000000,
+    "category":"UI & UX Design",
+    "Sub category":"CRM ",
+    "Task 1 Description":"Query Insert for the File",
+    "Task 2 Description":"Master Design Changes",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"6 hour"
+  },
+  {
+    "date":1728518400000,
+    "category":"UI & UX Design",
+    "Sub category":"BI",
+    "Task 1 Description":"Creating BI report for Map",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-2nd Week-Worklog.xlsx ###
+
+
+
+### Start of Document: Installation.xls ###
+[
+  {
+    "MID":22000000371568,
+    "Asset owner":"State Bank of India",
+    "Con Type":"Android",
+    "Model":"P1000",
+    "IMEI Number":null,
+    "No.of TID":1,
+    "Bank Mail Date":1507804200000,
+    "Exhibition":"No",
+    "From Date":null,
+    "To Date":null,
+    "Business Model":null,
+    "SIM Carrier":null,
+    "Remarks":"Smart EMI Testing",
+    "Pos Identifier":null,
+    "DCC Flag":null,
+    "Mark Up Rate":null,
+    "DCC MDR":null,
+    "Merchant Re-Imbursement":null,
+    "NET DCC MDR":null,
+    "All Currencies Supported":null,
+    "EMI":null,
+    "EMI Tenure":null,
+    "One Time Setup Fee":null,
+    "MOTO":null,
+    "E-Charge Slip":null,
+    "Pre-Auth":null,
+    "Brand":null,
+    "Bank":null,
+    "Debit":null,
+    "PlutusBussinessModel":"Plutus Multi Acquirer",
+    "FOS_Name":"test",
+    "FOS_ID":1,
+    "FOS\/FRE":"FRE",
+    "ZSM NAME":"test2",
+    "ZSM Emp Code":"FOS001",
+    "CSM\/ZSM":"ZSM",
+    "DC EMI FEE MODE":null,
+    "DC EMI FEE":null,
+    "MOPAD":null,
+    "Diners":null,
+    "Discover":null,
+    "JCB":null,
+    "CUPI":null,
+    "OtherChargesFrequency":null,
+    "OtherChargesAmount":null,
+    "OtherChargesCriteria":null,
+    "SecChargFreq":null,
+    "SecChargeAmt":null,
+    "secchargetypeofterminal":null,
+    "AMCChargesFrequency":null,
+    "AMCChargesAmount":null,
+    "eChargeslipsChargesFrequency":null,
+    "eChargeslipsChargesAmount":null,
+    "ServFeeFreq":null,
+    "ServFeeAmt":null,
+    "Set-UpFeeAmount":null,
+    "Rental":null,
+    "RentalStartDate":null,
+    "RentalEndDate":null,
+    "RentalPerc":null,
+    "RentalConcValue":null,
+    "RentalRefNoApp":null,
+    "InstaCharg":null,
+    "InstaChargStartDate":null,
+    "InstaChargEndDate":null,
+    "InstaChargPerc":null,
+    "InstaChargConcValue":null,
+    "InstaChargRefNoApp":null,
+    "BSFeesFlag":null,
+    "BSFeesStartDate":null,
+    "BSFeesValidtill":null,
+    "BSFeesPercentage":null,
+    "BSFeesValue":null,
+    "BSFeesRefNoApprover":null,
+    "BSConcessionType":null,
+    "DeinstallationFlag":null,
+    "Unnamed: 76":null,
+    "DeinstallationStartDate":null,
+    "DeinstallationValidtill":null,
+    "DeinstallationPercentage":null,
+    "DeinstallationValue":null,
+    "DeinstallationRefNoApprover":null,
+    "DeinstallationConcessionType":null,
+    "RentConcessionType":null,
+    "InstallationChargesConcessionType":null,
+    " BHIMQRCODE":1
+  }
+]
+### End of Document: Installation.xls ###
+
+
+### Start of Document: Pdf Generate.txt ###
+import os
+import time
+from flask import Flask, render_template, jsonify, request, send_file
+from pyhtml2pdf import converter
+from urllib.parse import urlparse, parse_qs
+
+app = Flask(__name__)
+
+# Define the two folder paths for saving PDFs
+FOLDER_SPINCO = 'spinco_folder'
+FOLDER_OTHER = 'other_folder'
+
+# Check if folders exist and create them if not
+if not os.path.exists(FOLDER_SPINCO):
+    os.makedirs(FOLDER_SPINCO)
+if not os.path.exists(FOLDER_OTHER):
+    os.makedirs(FOLDER_OTHER)
+
+def get_unique_filename(folder, filename):
+    """
+    Checks if the file already exists in the folder. If it does, appends a number (1, 2, 3, ...)
+    to the filename until a unique name is found.
+    """
+    base_name, ext = os.path.splitext(filename)
+    counter = 1
+    new_filename = filename
+    while os.path.exists(os.path.join(folder, new_filename)):
+        new_filename = f"{base_name}({counter}){ext}"
+        counter += 1
+    return new_filename
+
+@app.route("/")
+def index():
+    return "url_to_pdf_convertor"
+
+@app.route("/url")
+def change_ip():
+    # Get the 'name' parameter from the URL (which contains the URL to be converted)
+    name = request.args.get('name')
+
+    # Check if the URL contains "SPINCOTECHLLP"
+    if "SPINCOTECHLLP" in name:
+        folder = FOLDER_SPINCO  # Save to spinco_folder
+    else:
+        folder = FOLDER_OTHER  # Save to other_folder
+
+    # Generate the PDF file name based on the query parameters
+    if "qNo" in name:
+        url = name
+        parsed_url = urlparse(url)
+        # Extract the qNo value from the query string and clean it up (e.g., replace slashes with dashes)
+        hello_world = parse_qs(parsed_url.query)['qNo'][0].replace("/", "-")
+        output_pdf = hello_world + ".pdf"
+    else:
+        output_pdf = 'sample.pdf'
+
+    # Convert the URL to a PDF
+    converter.convert(name, output_pdf, timeout=4, print_options={"scale": 1, "paperHeight": 12})
+
+    # Get a unique filename if a file with the same name exists
+    output_pdf_unique = get_unique_filename(folder, output_pdf)
+
+    # Define the output file path based on the chosen folder
+    output_pdf_path = os.path.join(folder, output_pdf_unique)
+
+    # Move the generated PDF to the correct folder
+    os.rename(output_pdf, output_pdf_path)
+
+    # Send the PDF file as a download
+    return send_file(output_pdf_path, as_attachment=True)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0',port='3000')
+### End of Document: Pdf Generate.txt ###
+
+
+### Start of Document: Spinco 7.0 Test Report.xlsx ###
+[
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Project Summary report",
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Product Name :",
+    "Unnamed: 1":"Spinco 7.0 App",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Client Name:",
+    "Unnamed: 6":"Spinco",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Project Manager",
+    "Unnamed: 12":"Selvaraj",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Developer Name",
+    "Unnamed: 1":"Arun,Shahul,Karthick,Amous,Abdur Rahman",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Tester Name",
+    "Unnamed: 6":"Mahaddeer",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Type Of Test",
+    "Unnamed: 12":"Integration Testing",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Iteration cycle",
+    "Unnamed: 1":"Start date",
+    "Unnamed: 2":"End date",
+    "Unnamed: 3":"Status",
+    "Unnamed: 4":"Total issue raised",
+    "Unnamed: 5":"Newly Open issue",
+    "Unnamed: 6":"Closed issue from previous iteration",
+    "Unnamed: 7":"Conditionally closed ",
+    "Unnamed: 8":"Invalid issue",
+    "Unnamed: 9":"Reopen issue",
+    "Unnamed: 10":"Retesting pending",
+    "Unnamed: 11":"High issue",
+    "Unnamed: 12":"Medium issue",
+    "Unnamed: 13":"Low issue"
+  },
+  {
+    "Unnamed: 0":1,
+    "Unnamed: 1":1720656000000,
+    "Unnamed: 2":1723334400000,
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":105,
+    "Unnamed: 5":105,
+    "Unnamed: 6":0,
+    "Unnamed: 7":0,
+    "Unnamed: 8":0,
+    "Unnamed: 9":0,
+    "Unnamed: 10":0,
+    "Unnamed: 11":46,
+    "Unnamed: 12":52,
+    "Unnamed: 13":7
+  },
+  {
+    "Unnamed: 0":2,
+    "Unnamed: 1":"15\/11\/2024",
+    "Unnamed: 2":"15\/11\/2024",
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":73,
+    "Unnamed: 5":41,
+    "Unnamed: 6":67,
+    "Unnamed: 7":6,
+    "Unnamed: 8":0,
+    "Unnamed: 9":29,
+    "Unnamed: 10":3,
+    "Unnamed: 11":33,
+    "Unnamed: 12":36,
+    "Unnamed: 13":4
+  },
+  {
+    "Unnamed: 0":3,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":4,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":5,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":6,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":7,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":8,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":9,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":" ",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":10,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  }
+]
+### End of Document: Spinco 7.0 Test Report.xlsx ###
+
+
+### Start of Document: October-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: September-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1729468800000,
+    "category":"UI & UX Design",
+    "Sub category":"Dashboard Creation",
+    "Task 1 Description":"Creating Pending Call dashboard For Malaysia ",
+    "Task 2 Description":"NUll",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729555200000,
+    "category":"R& D",
+    "Sub category":"Thakral",
+    "Task 1 Description":"Understanding The Work flow of the Stages in Installation on Thakaral",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729641600000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Creating Verification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729728000000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"adding Attachment page onVerification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729814400000,
+    "category":"R& D",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Implement the Verification Page",
+    "Task 2 Description":"Learing About SSO",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: September-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: October-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1728259200000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRm",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1728345600000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRM",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Creating Excel of Mobile API",
+    "Task 1 Time spent":"6hour",
+    "Task 2 Time spent":"2 hour"
+  },
+  {
+    "date":1728432000000,
+    "category":"UI & UX Design",
+    "Sub category":"CRM ",
+    "Task 1 Description":"Query Insert for the File",
+    "Task 2 Description":"Master Design Changes",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"6 hour"
+  },
+  {
+    "date":1728518400000,
+    "category":"UI & UX Design",
+    "Sub category":"BI",
+    "Task 1 Description":"Creating BI report for Map",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-2nd Week-Worklog.xlsx ###
+
+
+
+### Start of Document: October-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: September-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1729468800000,
+    "category":"UI & UX Design",
+    "Sub category":"Dashboard Creation",
+    "Task 1 Description":"Creating Pending Call dashboard For Malaysia ",
+    "Task 2 Description":"NUll",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729555200000,
+    "category":"R& D",
+    "Sub category":"Thakral",
+    "Task 1 Description":"Understanding The Work flow of the Stages in Installation on Thakaral",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729641600000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Creating Verification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729728000000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"adding Attachment page onVerification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729814400000,
+    "category":"R& D",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Implement the Verification Page",
+    "Task 2 Description":"Learing About SSO",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: September-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: October-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1728259200000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRm",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1728345600000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRM",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Creating Excel of Mobile API",
+    "Task 1 Time spent":"6hour",
+    "Task 2 Time spent":"2 hour"
+  },
+  {
+    "date":1728432000000,
+    "category":"UI & UX Design",
+    "Sub category":"CRM ",
+    "Task 1 Description":"Query Insert for the File",
+    "Task 2 Description":"Master Design Changes",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"6 hour"
+  },
+  {
+    "date":1728518400000,
+    "category":"UI & UX Design",
+    "Sub category":"BI",
+    "Task 1 Description":"Creating BI report for Map",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-2nd Week-Worklog.xlsx ###
+
+
+
+### Start of Document: Installation.xls ###
+[
+  {
+    "MID":22000000371568,
+    "Asset owner":"State Bank of India",
+    "Con Type":"Android",
+    "Model":"P1000",
+    "IMEI Number":null,
+    "No.of TID":1,
+    "Bank Mail Date":1507804200000,
+    "Exhibition":"No",
+    "From Date":null,
+    "To Date":null,
+    "Business Model":null,
+    "SIM Carrier":null,
+    "Remarks":"Smart EMI Testing",
+    "Pos Identifier":null,
+    "DCC Flag":null,
+    "Mark Up Rate":null,
+    "DCC MDR":null,
+    "Merchant Re-Imbursement":null,
+    "NET DCC MDR":null,
+    "All Currencies Supported":null,
+    "EMI":null,
+    "EMI Tenure":null,
+    "One Time Setup Fee":null,
+    "MOTO":null,
+    "E-Charge Slip":null,
+    "Pre-Auth":null,
+    "Brand":null,
+    "Bank":null,
+    "Debit":null,
+    "PlutusBussinessModel":"Plutus Multi Acquirer",
+    "FOS_Name":"test",
+    "FOS_ID":1,
+    "FOS\/FRE":"FRE",
+    "ZSM NAME":"test2",
+    "ZSM Emp Code":"FOS001",
+    "CSM\/ZSM":"ZSM",
+    "DC EMI FEE MODE":null,
+    "DC EMI FEE":null,
+    "MOPAD":null,
+    "Diners":null,
+    "Discover":null,
+    "JCB":null,
+    "CUPI":null,
+    "OtherChargesFrequency":null,
+    "OtherChargesAmount":null,
+    "OtherChargesCriteria":null,
+    "SecChargFreq":null,
+    "SecChargeAmt":null,
+    "secchargetypeofterminal":null,
+    "AMCChargesFrequency":null,
+    "AMCChargesAmount":null,
+    "eChargeslipsChargesFrequency":null,
+    "eChargeslipsChargesAmount":null,
+    "ServFeeFreq":null,
+    "ServFeeAmt":null,
+    "Set-UpFeeAmount":null,
+    "Rental":null,
+    "RentalStartDate":null,
+    "RentalEndDate":null,
+    "RentalPerc":null,
+    "RentalConcValue":null,
+    "RentalRefNoApp":null,
+    "InstaCharg":null,
+    "InstaChargStartDate":null,
+    "InstaChargEndDate":null,
+    "InstaChargPerc":null,
+    "InstaChargConcValue":null,
+    "InstaChargRefNoApp":null,
+    "BSFeesFlag":null,
+    "BSFeesStartDate":null,
+    "BSFeesValidtill":null,
+    "BSFeesPercentage":null,
+    "BSFeesValue":null,
+    "BSFeesRefNoApprover":null,
+    "BSConcessionType":null,
+    "DeinstallationFlag":null,
+    "Unnamed: 76":null,
+    "DeinstallationStartDate":null,
+    "DeinstallationValidtill":null,
+    "DeinstallationPercentage":null,
+    "DeinstallationValue":null,
+    "DeinstallationRefNoApprover":null,
+    "DeinstallationConcessionType":null,
+    "RentConcessionType":null,
+    "InstallationChargesConcessionType":null,
+    " BHIMQRCODE":1
+  }
+]
+### End of Document: Installation.xls ###
+
+
+### Start of Document: Pdf Generate.txt ###
+import os
+import time
+from flask import Flask, render_template, jsonify, request, send_file
+from pyhtml2pdf import converter
+from urllib.parse import urlparse, parse_qs
+
+app = Flask(__name__)
+
+# Define the two folder paths for saving PDFs
+FOLDER_SPINCO = 'spinco_folder'
+FOLDER_OTHER = 'other_folder'
+
+# Check if folders exist and create them if not
+if not os.path.exists(FOLDER_SPINCO):
+    os.makedirs(FOLDER_SPINCO)
+if not os.path.exists(FOLDER_OTHER):
+    os.makedirs(FOLDER_OTHER)
+
+def get_unique_filename(folder, filename):
+    """
+    Checks if the file already exists in the folder. If it does, appends a number (1, 2, 3, ...)
+    to the filename until a unique name is found.
+    """
+    base_name, ext = os.path.splitext(filename)
+    counter = 1
+    new_filename = filename
+    while os.path.exists(os.path.join(folder, new_filename)):
+        new_filename = f"{base_name}({counter}){ext}"
+        counter += 1
+    return new_filename
+
+@app.route("/")
+def index():
+    return "url_to_pdf_convertor"
+
+@app.route("/url")
+def change_ip():
+    # Get the 'name' parameter from the URL (which contains the URL to be converted)
+    name = request.args.get('name')
+
+    # Check if the URL contains "SPINCOTECHLLP"
+    if "SPINCOTECHLLP" in name:
+        folder = FOLDER_SPINCO  # Save to spinco_folder
+    else:
+        folder = FOLDER_OTHER  # Save to other_folder
+
+    # Generate the PDF file name based on the query parameters
+    if "qNo" in name:
+        url = name
+        parsed_url = urlparse(url)
+        # Extract the qNo value from the query string and clean it up (e.g., replace slashes with dashes)
+        hello_world = parse_qs(parsed_url.query)['qNo'][0].replace("/", "-")
+        output_pdf = hello_world + ".pdf"
+    else:
+        output_pdf = 'sample.pdf'
+
+    # Convert the URL to a PDF
+    converter.convert(name, output_pdf, timeout=4, print_options={"scale": 1, "paperHeight": 12})
+
+    # Get a unique filename if a file with the same name exists
+    output_pdf_unique = get_unique_filename(folder, output_pdf)
+
+    # Define the output file path based on the chosen folder
+    output_pdf_path = os.path.join(folder, output_pdf_unique)
+
+    # Move the generated PDF to the correct folder
+    os.rename(output_pdf, output_pdf_path)
+
+    # Send the PDF file as a download
+    return send_file(output_pdf_path, as_attachment=True)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0',port='3000')
+### End of Document: Pdf Generate.txt ###
+
+
+### Start of Document: Spinco 7.0 Test Report.xlsx ###
+[
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Project Summary report",
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Product Name :",
+    "Unnamed: 1":"Spinco 7.0 App",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Client Name:",
+    "Unnamed: 6":"Spinco",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Project Manager",
+    "Unnamed: 12":"Selvaraj",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Developer Name",
+    "Unnamed: 1":"Arun,Shahul,Karthick,Amous,Abdur Rahman",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Tester Name",
+    "Unnamed: 6":"Mahaddeer",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Type Of Test",
+    "Unnamed: 12":"Integration Testing",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Iteration cycle",
+    "Unnamed: 1":"Start date",
+    "Unnamed: 2":"End date",
+    "Unnamed: 3":"Status",
+    "Unnamed: 4":"Total issue raised",
+    "Unnamed: 5":"Newly Open issue",
+    "Unnamed: 6":"Closed issue from previous iteration",
+    "Unnamed: 7":"Conditionally closed ",
+    "Unnamed: 8":"Invalid issue",
+    "Unnamed: 9":"Reopen issue",
+    "Unnamed: 10":"Retesting pending",
+    "Unnamed: 11":"High issue",
+    "Unnamed: 12":"Medium issue",
+    "Unnamed: 13":"Low issue"
+  },
+  {
+    "Unnamed: 0":1,
+    "Unnamed: 1":1720656000000,
+    "Unnamed: 2":1723334400000,
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":105,
+    "Unnamed: 5":105,
+    "Unnamed: 6":0,
+    "Unnamed: 7":0,
+    "Unnamed: 8":0,
+    "Unnamed: 9":0,
+    "Unnamed: 10":0,
+    "Unnamed: 11":46,
+    "Unnamed: 12":52,
+    "Unnamed: 13":7
+  },
+  {
+    "Unnamed: 0":2,
+    "Unnamed: 1":"15\/11\/2024",
+    "Unnamed: 2":"15\/11\/2024",
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":73,
+    "Unnamed: 5":41,
+    "Unnamed: 6":67,
+    "Unnamed: 7":6,
+    "Unnamed: 8":0,
+    "Unnamed: 9":29,
+    "Unnamed: 10":3,
+    "Unnamed: 11":33,
+    "Unnamed: 12":36,
+    "Unnamed: 13":4
+  },
+  {
+    "Unnamed: 0":3,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":4,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":5,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":6,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":7,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":8,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":9,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":" ",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":10,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  }
+]
+### End of Document: Spinco 7.0 Test Report.xlsx ###
+
+
+### Start of Document: October-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: September-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1729468800000,
+    "category":"UI & UX Design",
+    "Sub category":"Dashboard Creation",
+    "Task 1 Description":"Creating Pending Call dashboard For Malaysia ",
+    "Task 2 Description":"NUll",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729555200000,
+    "category":"R& D",
+    "Sub category":"Thakral",
+    "Task 1 Description":"Understanding The Work flow of the Stages in Installation on Thakaral",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729641600000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Creating Verification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729728000000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"adding Attachment page onVerification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729814400000,
+    "category":"R& D",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Implement the Verification Page",
+    "Task 2 Description":"Learing About SSO",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: September-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: October-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1728259200000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRm",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1728345600000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRM",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Creating Excel of Mobile API",
+    "Task 1 Time spent":"6hour",
+    "Task 2 Time spent":"2 hour"
+  },
+  {
+    "date":1728432000000,
+    "category":"UI & UX Design",
+    "Sub category":"CRM ",
+    "Task 1 Description":"Query Insert for the File",
+    "Task 2 Description":"Master Design Changes",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"6 hour"
+  },
+  {
+    "date":1728518400000,
+    "category":"UI & UX Design",
+    "Sub category":"BI",
+    "Task 1 Description":"Creating BI report for Map",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-2nd Week-Worklog.xlsx ###
+
+
+
+### Start of Document: Installation.xls ###
+[
+  {
+    "MID":22000000371568,
+    "Asset owner":"State Bank of India",
+    "Con Type":"Android",
+    "Model":"P1000",
+    "IMEI Number":null,
+    "No.of TID":1,
+    "Bank Mail Date":1507804200000,
+    "Exhibition":"No",
+    "From Date":null,
+    "To Date":null,
+    "Business Model":null,
+    "SIM Carrier":null,
+    "Remarks":"Smart EMI Testing",
+    "Pos Identifier":null,
+    "DCC Flag":null,
+    "Mark Up Rate":null,
+    "DCC MDR":null,
+    "Merchant Re-Imbursement":null,
+    "NET DCC MDR":null,
+    "All Currencies Supported":null,
+    "EMI":null,
+    "EMI Tenure":null,
+    "One Time Setup Fee":null,
+    "MOTO":null,
+    "E-Charge Slip":null,
+    "Pre-Auth":null,
+    "Brand":null,
+    "Bank":null,
+    "Debit":null,
+    "PlutusBussinessModel":"Plutus Multi Acquirer",
+    "FOS_Name":"test",
+    "FOS_ID":1,
+    "FOS\/FRE":"FRE",
+    "ZSM NAME":"test2",
+    "ZSM Emp Code":"FOS001",
+    "CSM\/ZSM":"ZSM",
+    "DC EMI FEE MODE":null,
+    "DC EMI FEE":null,
+    "MOPAD":null,
+    "Diners":null,
+    "Discover":null,
+    "JCB":null,
+    "CUPI":null,
+    "OtherChargesFrequency":null,
+    "OtherChargesAmount":null,
+    "OtherChargesCriteria":null,
+    "SecChargFreq":null,
+    "SecChargeAmt":null,
+    "secchargetypeofterminal":null,
+    "AMCChargesFrequency":null,
+    "AMCChargesAmount":null,
+    "eChargeslipsChargesFrequency":null,
+    "eChargeslipsChargesAmount":null,
+    "ServFeeFreq":null,
+    "ServFeeAmt":null,
+    "Set-UpFeeAmount":null,
+    "Rental":null,
+    "RentalStartDate":null,
+    "RentalEndDate":null,
+    "RentalPerc":null,
+    "RentalConcValue":null,
+    "RentalRefNoApp":null,
+    "InstaCharg":null,
+    "InstaChargStartDate":null,
+    "InstaChargEndDate":null,
+    "InstaChargPerc":null,
+    "InstaChargConcValue":null,
+    "InstaChargRefNoApp":null,
+    "BSFeesFlag":null,
+    "BSFeesStartDate":null,
+    "BSFeesValidtill":null,
+    "BSFeesPercentage":null,
+    "BSFeesValue":null,
+    "BSFeesRefNoApprover":null,
+    "BSConcessionType":null,
+    "DeinstallationFlag":null,
+    "Unnamed: 76":null,
+    "DeinstallationStartDate":null,
+    "DeinstallationValidtill":null,
+    "DeinstallationPercentage":null,
+    "DeinstallationValue":null,
+    "DeinstallationRefNoApprover":null,
+    "DeinstallationConcessionType":null,
+    "RentConcessionType":null,
+    "InstallationChargesConcessionType":null,
+    " BHIMQRCODE":1
+  }
+]
+### End of Document: Installation.xls ###
+
+
+### Start of Document: Pdf Generate.txt ###
+import os
+import time
+from flask import Flask, render_template, jsonify, request, send_file
+from pyhtml2pdf import converter
+from urllib.parse import urlparse, parse_qs
+
+app = Flask(__name__)
+
+# Define the two folder paths for saving PDFs
+FOLDER_SPINCO = 'spinco_folder'
+FOLDER_OTHER = 'other_folder'
+
+# Check if folders exist and create them if not
+if not os.path.exists(FOLDER_SPINCO):
+    os.makedirs(FOLDER_SPINCO)
+if not os.path.exists(FOLDER_OTHER):
+    os.makedirs(FOLDER_OTHER)
+
+def get_unique_filename(folder, filename):
+    """
+    Checks if the file already exists in the folder. If it does, appends a number (1, 2, 3, ...)
+    to the filename until a unique name is found.
+    """
+    base_name, ext = os.path.splitext(filename)
+    counter = 1
+    new_filename = filename
+    while os.path.exists(os.path.join(folder, new_filename)):
+        new_filename = f"{base_name}({counter}){ext}"
+        counter += 1
+    return new_filename
+
+@app.route("/")
+def index():
+    return "url_to_pdf_convertor"
+
+@app.route("/url")
+def change_ip():
+    # Get the 'name' parameter from the URL (which contains the URL to be converted)
+    name = request.args.get('name')
+
+    # Check if the URL contains "SPINCOTECHLLP"
+    if "SPINCOTECHLLP" in name:
+        folder = FOLDER_SPINCO  # Save to spinco_folder
+    else:
+        folder = FOLDER_OTHER  # Save to other_folder
+
+    # Generate the PDF file name based on the query parameters
+    if "qNo" in name:
+        url = name
+        parsed_url = urlparse(url)
+        # Extract the qNo value from the query string and clean it up (e.g., replace slashes with dashes)
+        hello_world = parse_qs(parsed_url.query)['qNo'][0].replace("/", "-")
+        output_pdf = hello_world + ".pdf"
+    else:
+        output_pdf = 'sample.pdf'
+
+    # Convert the URL to a PDF
+    converter.convert(name, output_pdf, timeout=4, print_options={"scale": 1, "paperHeight": 12})
+
+    # Get a unique filename if a file with the same name exists
+    output_pdf_unique = get_unique_filename(folder, output_pdf)
+
+    # Define the output file path based on the chosen folder
+    output_pdf_path = os.path.join(folder, output_pdf_unique)
+
+    # Move the generated PDF to the correct folder
+    os.rename(output_pdf, output_pdf_path)
+
+    # Send the PDF file as a download
+    return send_file(output_pdf_path, as_attachment=True)
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0',port='3000')
+### End of Document: Pdf Generate.txt ###
+
+
+### Start of Document: Spinco 7.0 Test Report.xlsx ###
+[
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Project Summary report",
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Product Name :",
+    "Unnamed: 1":"Spinco 7.0 App",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Client Name:",
+    "Unnamed: 6":"Spinco",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Project Manager",
+    "Unnamed: 12":"Selvaraj",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Developer Name",
+    "Unnamed: 1":"Arun,Shahul,Karthick,Amous,Abdur Rahman",
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":"Tester Name",
+    "Unnamed: 6":"Mahaddeer",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":"Type Of Test",
+    "Unnamed: 12":"Integration Testing",
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":null,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":"Iteration cycle",
+    "Unnamed: 1":"Start date",
+    "Unnamed: 2":"End date",
+    "Unnamed: 3":"Status",
+    "Unnamed: 4":"Total issue raised",
+    "Unnamed: 5":"Newly Open issue",
+    "Unnamed: 6":"Closed issue from previous iteration",
+    "Unnamed: 7":"Conditionally closed ",
+    "Unnamed: 8":"Invalid issue",
+    "Unnamed: 9":"Reopen issue",
+    "Unnamed: 10":"Retesting pending",
+    "Unnamed: 11":"High issue",
+    "Unnamed: 12":"Medium issue",
+    "Unnamed: 13":"Low issue"
+  },
+  {
+    "Unnamed: 0":1,
+    "Unnamed: 1":1720656000000,
+    "Unnamed: 2":1723334400000,
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":105,
+    "Unnamed: 5":105,
+    "Unnamed: 6":0,
+    "Unnamed: 7":0,
+    "Unnamed: 8":0,
+    "Unnamed: 9":0,
+    "Unnamed: 10":0,
+    "Unnamed: 11":46,
+    "Unnamed: 12":52,
+    "Unnamed: 13":7
+  },
+  {
+    "Unnamed: 0":2,
+    "Unnamed: 1":"15\/11\/2024",
+    "Unnamed: 2":"15\/11\/2024",
+    "Unnamed: 3":"Fail",
+    "Unnamed: 4":73,
+    "Unnamed: 5":41,
+    "Unnamed: 6":67,
+    "Unnamed: 7":6,
+    "Unnamed: 8":0,
+    "Unnamed: 9":29,
+    "Unnamed: 10":3,
+    "Unnamed: 11":33,
+    "Unnamed: 12":36,
+    "Unnamed: 13":4
+  },
+  {
+    "Unnamed: 0":3,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":4,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":5,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":6,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":7,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":8,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":9,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":" ",
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  },
+  {
+    "Unnamed: 0":10,
+    "Unnamed: 1":null,
+    "Unnamed: 2":null,
+    "Unnamed: 3":null,
+    "Unnamed: 4":null,
+    "Unnamed: 5":null,
+    "Unnamed: 6":null,
+    "Unnamed: 7":null,
+    "Unnamed: 8":null,
+    "Unnamed: 9":null,
+    "Unnamed: 10":null,
+    "Unnamed: 11":null,
+    "Unnamed: 12":null,
+    "Unnamed: 13":null
+  }
+]
+### End of Document: Spinco 7.0 Test Report.xlsx ###
+
+
+### Start of Document: October-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1730073600000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  },
+  {
+    "date":1730160000000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1730246400000,
+    "category":"R&D",
+    "Sub category":"SSO",
+    "Task 1 Description":"Creationg SSO",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: September-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1729468800000,
+    "category":"UI & UX Design",
+    "Sub category":"Dashboard Creation",
+    "Task 1 Description":"Creating Pending Call dashboard For Malaysia ",
+    "Task 2 Description":"NUll",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729555200000,
+    "category":"R& D",
+    "Sub category":"Thakral",
+    "Task 1 Description":"Understanding The Work flow of the Stages in Installation on Thakaral",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729641600000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Creating Verification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729728000000,
+    "category":"UI & UX Design",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"adding Attachment page onVerification Stage ",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1729814400000,
+    "category":"R& D",
+    "Sub category":"Stage Creation",
+    "Task 1 Description":"Implement the Verification Page",
+    "Task 2 Description":"Learing About SSO",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"2 hour"
+  }
+]
+### End of Document: September-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: October-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1728259200000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRm",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1728345600000,
+    "category":"UI & UX Design",
+    "Sub category":"Sales CRM",
+    "Task 1 Description":"Data Binding on Installation Report",
+    "Task 2 Description":"Creating Excel of Mobile API",
+    "Task 1 Time spent":"6hour",
+    "Task 2 Time spent":"2 hour"
+  },
+  {
+    "date":1728432000000,
+    "category":"UI & UX Design",
+    "Sub category":"CRM ",
+    "Task 1 Description":"Query Insert for the File",
+    "Task 2 Description":"Master Design Changes",
+    "Task 1 Time spent":"2 hour",
+    "Task 2 Time spent":"6 hour"
+  },
+  {
+    "date":1728518400000,
+    "category":"UI & UX Design",
+    "Sub category":"BI",
+    "Task 1 Description":"Creating BI report for Map",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: October-2nd Week-Worklog.xlsx ###
+
+
+
+### Start of Document: June-3rd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Design Fix in AOC",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000320"
+  },
+  {
+    "Activity Date":"16-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate data for forecasting",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"17\/06\/2025 09:56",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000321"
+  },
+  {
+    "Activity Date":"17-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Forcasting the Data",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"18\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000322"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot for analyse the documents and Excel",
+    "Customer Comments":null,
+    "Effort":5,
+    "Created Date":"18\/06\/2025 19:45",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000323"
+  },
+  {
+    "Activity Date":"18-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC design Issue Fixing for serial no Popup",
+    "Customer Comments":null,
+    "Effort":3,
+    "Created Date":"18\/06\/2025 19:46",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000324"
+  },
+  {
+    "Activity Date":"19-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate the response based on Documents",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"20\/06\/2025 09:55",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000325"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000326"
+  },
+  {
+    "Activity Date":"20-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Aoc design issue fix",
+    "Customer Comments":null,
+    "Effort":4,
+    "Created Date":"23\/06\/2025 10:35",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000327"
+  }
+]
+### End of Document: June-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: June-2nd Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"09-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Inward ,Outward and Despatch Screen Design Completed",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 19:44",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000315"
+  },
+  {
+    "Activity Date":"10-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Acknowlegment Detail Design Changes",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"11\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000316"
+  },
+  {
+    "Activity Date":"11-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Reaserch on AI chatbot using Python and Code Implementation",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 11:13",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000317"
+  },
+  {
+    "Activity Date":"12-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the Chatbot to generate the Query dynmically using GPT Model",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"12\/06\/2025 19:21",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000318"
+  },
+  {
+    "Activity Date":"13-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-06-GI-0781",
+    "Nature of Problem":"AI Chatbot",
+    "Engineer":"Selvaraj",
+    "Activity Type":"Production",
+    "Action Taken":"Train the chatbot to generate Charts for data fetched and Voice Training",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"16\/06\/2025 09:47",
+    "Created By":"AMOS",
+    "Account":"Cogent Innovations Pvt Ltd",
+    "Docket No":"2025-06-GI-0781",
+    "Customer Effort":null,
+    "Serial No":"Cogent_Internal",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000319"
+  }
+]
+### End of Document: June-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: June-1st Week-Worklog.xlsx ###
+[
+  {
+    "Activity Date":"06-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Inward and Outward Table Design In AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"09\/06\/2025 10:09",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000314"
+  },
+  {
+    "Activity Date":"05-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"Desiging GridLookup and Table Design For AOC",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"06\/06\/2025 09:53",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000313"
+  },
+  {
+    "Activity Date":"04-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Changes Issue Fixed for Responsive",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"05\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000312"
+  },
+  {
+    "Activity Date":"03-Jun",
+    "Activity Against":"Pin-Followup",
+    "Reference":"2025-05-GU-0556",
+    "Nature of Problem":"AOC New Design Changes",
+    "Engineer":"Babu",
+    "Activity Type":"Production",
+    "Action Taken":"AOC Design Code Committed and Fixing the Design Issues in Demand",
+    "Customer Comments":null,
+    "Effort":8,
+    "Created Date":"04\/06\/2025 09:54",
+    "Created By":"AMOS",
+    "Account":"AOC",
+    "Docket No":"2025-05-GU-0556",
+    "Customer Effort":null,
+    "Serial No":"AOC_IT",
+    "Call Type":"Project",
+    "Sub Call Type":"Project",
+    "Status":"Open",
+    "Sub Status":"Allocated to Engineer",
+    "Response Category":null,
+    "Start Time":null,
+    "Reached Time":null,
+    "Report No":null,
+    "Next Activity Date":null,
+    "Next Activity Description":null,
+    "Activity Month":"June",
+    "No of Activities":1,
+    "Count":1,
+    "Activity Code":"II-0000311"
+  }
+]
+### End of Document: June-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: May-5th Week-Worklog.xlsx ###
+[
+  {
+    "date":1748217600000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Inward Details",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748304000000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Acknowledgement",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748390400000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Master List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1748476800000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Report List",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1748563200000,
+    "category":"AOC",
+    "Sub category":"Design Changes",
+    "Task 1 Description":"Outward ,Inward",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: May-5th Week-Worklog.xlsx ###
+

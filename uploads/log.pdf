@@ -1,0 +1,256 @@
+
+
+### Start of Document: April-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-1st Week-Worklog.xlsx ###
+
+
+### Start of Document: April-3rd Week-Worklog.xlsx ###
+[
+  {
+    "date":1742774400000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN Mapping API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742860800000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1742947200000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"DSN UnMapping API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1743033600000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1743120000000,
+    "category":"MMS",
+    "Sub category":"API Creation",
+    "Task 1 Description":"Deployment API for AXISMMS",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-3rd Week-Worklog.xlsx ###
+
+
+### Start of Document: April-4th Week-Worklog.xlsx ###
+[
+  {
+    "date":1745193600000,
+    "category":"leave",
+    "Sub category":"leave",
+    "Task 1 Description":"leave",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"leave",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745280000000,
+    "category":"ICRM",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Design Changes in calltype and Subcalltype Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745366400000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in Survery Question Master and RMA Stage Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1745452800000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in PM Question Master and RMA Escalation Master",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"nulll"
+  },
+  {
+    "date":1745539200000,
+    "category":"MMS",
+    "Sub category":"Master Design Changes",
+    "Task 1 Description":"Desing Changes in NPS Suvery and Question Master",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":"Null"
+  }
+]
+### End of Document: April-4th Week-Worklog.xlsx ###
+
+
+### Start of Document: Dec-2nd Week-Worklog.xlsx ###
+[
+  {
+    "date":1733702400000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Ventor Tagging bug fix",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8hours",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733788800000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Report Creation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733875200000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Documentation",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1733961600000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Adding Grid Values",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1734048000000,
+    "category":"Project",
+    "Sub category":"Service Flow Version 2.0",
+    "Task 1 Description":"Action master Implement",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Dec-2nd Week-Worklog.xlsx ###
+
+
+### Start of Document: Feb-1st Week-Worklog.xlsx ###
+[
+  {
+    "date":1739059200000,
+    "category":"Project",
+    "Sub category":"MMS dashboard Version 6",
+    "Task 1 Description":"Create sample BI dashboard for pending file",
+    "Task 2 Description":"Vendor Tagging Release Note Documentation",
+    "Task 1 Time spent":"4 hours",
+    "Task 2 Time spent":"4 hours"
+  },
+  {
+    "date":1739145600000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Separate report same like call Details Report in MMS with all filtration",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739232000000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"Bug Fixing in Vendor tagging",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739318400000,
+    "category":"Project",
+    "Sub category":"Requirement for Servicing flows (version 2)",
+    "Task 1 Description":"New fields added in the Grid (Axis bank,Phone pe,Gp) and Bug fixed",
+    "Task 2 Description":null,
+    "Task 1 Time spent":"8 hour",
+    "Task 2 Time spent":null
+  },
+  {
+    "date":1739404800000,
+    "category":"Project",
+    "Sub category":"AXIS Checker Process Simplification",
+    "Task 1 Description":"AXIS Checker Process Simplification",
+    "Task 2 Description":"Null",
+    "Task 1 Time spent":"8 hours",
+    "Task 2 Time spent":null
+  }
+]
+### End of Document: Feb-1st Week-Worklog.xlsx ###
+
