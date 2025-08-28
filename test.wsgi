@@ -1,10 +1,10 @@
 import sys
 
 # Path to your Flask application directory
-sys.path.insert(0, 'D:/python/Deep Learning')
+sys.path.insert(0, 'folder name')
 
 # Path to virtual environment site-packages
-venv_site_packages = r'D:\python\Deep Learning\.venv\Lib\site-packages'
+venv_site_packages = r'path of the venv file '
 sys.path.insert(0, venv_site_packages)
 
 # Import your Flask application
