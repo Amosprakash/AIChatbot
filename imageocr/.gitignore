@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+log.txt
+logs/
+
+# OCR Cache
+cache/
+*.cache
+
+# Temporary files
+temp_*
+*.tmp
+debug_*.png
+preprocessed_result.png
+super_resolve.png
+*_gray.png
+*_norm.png
+*_sharp.png
+*_thresh.png
+*_superres.png
+
+# Models (if large)
+models/*.pb
+models/*.pth
+*.pb
+*.pth
+
+# Test files
+test_*.py
+pytest_cache/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Credentials
+*.json
+!package*.json
+credentials/
+secrets/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Output
+Output/
+output/
+results/
+
+# Video temp files
+temp_video*

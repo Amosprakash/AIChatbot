@@ -1,0 +1,80 @@
+[33mcommit f9bb6e9cfbf9e98d4547c9b614bcf79e94b4b1d7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Amosprakash <kamosprakash12259@gmail.com>
+Date:   Tue Aug 26 17:45:29 2025 +0530
+
+    Add .gitignore to ignore venv and binaries
+
+ .gitignore | 6 [32m++++++[m
+ 1 file changed, 6 insertions(+)
+
+[33mcommit 33ba9467e3b46de10113fe3c3ebcbba30779d35d[m
+Author: Amosprakash <kamosprakash12259@gmail.com>
+Date:   Tue Aug 26 17:41:15 2025 +0530
+
+    Add project dependencies
+
+ requirements.txt | 90 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 90 insertions(+)
+
+[33mcommit 141d0c081a3ebcca771cefc0ca56cb281e3be55e[m
+Author: Amos-prakash <amos@cogentmail.com>
+Date:   Tue Aug 26 15:48:47 2025 +0530
+
+    initial commit
+
+ .vscode/settings.json | 11 [32m+++++++++++[m
+ 1 file changed, 11 insertions(+)
+
+[33mcommit 5eae991b73332573d7dcaf22c68790d018fd2462[m
+Author: Amos-prakash <amos@cogentmail.com>
+Date:   Tue Aug 26 15:10:44 2025 +0530
+
+    first commit
+
+ 1_gray.png                                         |  Bin [31m0[m -> [32m1182062[m bytes
+ 1_superres.png                                     |  Bin [31m0[m -> [32m9823991[m bytes
+ 2_norm.png                                         |  Bin [31m0[m -> [32m1088033[m bytes
+ 3_sharp.png                                        |  Bin [31m0[m -> [32m1142478[m bytes
+ 4_thresh.png                                       |  Bin [31m0[m -> [32m200303[m bytes
+ FSRCNN_x4.pb                                       |  Bin [31m0[m -> [32m41661[m bytes
+ Input/Computer.jpg                                 |  Bin [31m0[m -> [32m262390[m bytes
+ Input/Excel.png                                    |  Bin [31m0[m -> [32m59149[m bytes
+ Input/Image.png                                    |  Bin [31m0[m -> [32m93078[m bytes
+ Input/OIP.jpg                                      |  Bin [31m0[m -> [32m16578[m bytes
+ ... Vision API \302\240_\302\240 Google Cloud.pdf" |  Bin [31m0[m -> [32m171134[m bytes
+ Input/Sales.jpg                                    |  Bin [31m0[m -> [32m161294[m bytes
+ Input/Sample.png                                   |  Bin [31m0[m -> [32m1146172[m bytes
+ Input/image1.jpg                                   |  Bin [31m0[m -> [32m80509[m bytes
+ Input/input.jpg                                    |  Bin [31m0[m -> [32m509133[m bytes
+ Input/large.png                                    |  Bin [31m0[m -> [32m36322[m bytes
+ Input/test.jpg                                     |  Bin [31m0[m -> [32m38029[m bytes
+ Input/test1.jfif                                   |  Bin [31m0[m -> [32m8917[m bytes
+ __pycache__/app.cpython-39.pyc                     |  Bin [31m0[m -> [32m1955[m bytes
+ __pycache__/image.cpython-39.pyc                   |  Bin [31m0[m -> [32m8823[m bytes
+ __pycache__/log.cpython-39.pyc                     |  Bin [31m0[m -> [32m806[m bytes
+ __pycache__/openai_client.cpython-39.pyc           |  Bin [31m0[m -> [32m983[m bytes
+ __pycache__/upload.cpython-39.pyc                  |  Bin [31m0[m -> [32m4493[m bytes
+ __pycache__/utils.cpython-39.pyc                   |  Bin [31m0[m -> [32m6253[m bytes
+ app.py                                             |   70 [32m+[m
+ image.py                                           |  328 [32m++[m
+ log.py                                             |   31 [32m+[m
+ log.txt                                            | 5700 [32m++++++++++++++++++++[m
+ .../._inference.pdmodel                            |  Bin [31m0[m -> [32m176[m bytes
+ .../inference.pdiparams                            |  Bin [31m0[m -> [32m539978[m bytes
+ .../inference.pdiparams.info                       |  Bin [31m0[m -> [32m18545[m bytes
+ .../inference.pdmodel                              |  Bin [31m0[m -> [32m1624487[m bytes
+ models/en_PP-OCRv3_det_infer/inference.pdiparams   |  Bin [31m0[m -> [32m2377917[m bytes
+ .../en_PP-OCRv3_det_infer/inference.pdiparams.info |  Bin [31m0[m -> [32m26392[m bytes
+ models/en_PP-OCRv3_det_infer/inference.pdmodel     |  Bin [31m0[m -> [32m1590133[m bytes
+ models/en_PP-OCRv4_rec_infer/inference.pdiparams   |  Bin [31m0[m -> [32m7607269[m bytes
+ .../en_PP-OCRv4_rec_infer/inference.pdiparams.info |  Bin [31m0[m -> [32m102540[m bytes
+ models/en_PP-OCRv4_rec_infer/inference.pdmodel     |  Bin [31m0[m -> [32m2517366[m bytes
+ ocr.py                                             |   42 [32m+[m
+ openai_client.py                                   |   20 [32m+[m
+ preprocessed_result.png                            |  Bin [31m0[m -> [32m31154[m bytes
+ requirement.txt                                    |   15 [32m+[m
+ sample.py                                          |  116 [32m+[m
+ super_resolve.png                                  |  Bin [31m0[m -> [32m12032075[m bytes
+ upload.py                                          |  145 [32m+[m
+ utils.py                                           |  223 [32m+[m
+ 46 files changed, 6690 insertions(+)
