@@ -2,84 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Chat Bot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chat Assistant</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
 </head>
 <body>
+  <!-- Main Chat Container -->
   <div class="chat-container">
-    <div class="chat-header">Chat Bot</div>
-    
-    <div class="chat-window" id="chatWindow">
-  <div class="message-wrapper bot">
-    <div class="message bot">Hi! How can I assist you today?</div>
+    <!-- Sidebar for Chat History -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h3><i class="fas fa-history"></i> Chat History</h3>
+        <button class="icon-btn" id="closeSidebar" title="Close sidebar">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="sidebar-content">
+        <button class="btn-new-chat" id="newChatBtn">
+          <i class="fas fa-plus"></i> New Chat
+        </button>
+        <div class="chat-list" id="chatList">
+          <!-- Chat history items will be loaded here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Chat Area -->
+    <div class="chat-main">
+      <!-- Chat Header -->
+      <div class="chat-header">
+        <div class="header-left">
+          <button class="icon-btn" id="toggleSidebar" title="Chat history">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h1>AI Chat Assistant</h1>
+        </div>
+        <div class="header-right">
+          <button class="icon-btn" id="clearChatBtn" title="Clear chat">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+          <button class="icon-btn" id="saveChatBtn" title="Save chat">
+            <i class="fas fa-save"></i>
+          </button>
+          <button class="icon-btn" id="darkModeToggle" title="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Chat Window -->
+      <div class="chat-window" id="chatWindow">
+        <div class="message-wrapper bot">
+          <div class="message bot">
+            <div class="message-content">
+              Hi! I'm your AI assistant. I can help you with document analysis, data queries, and much more. How can I assist you today?
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chat Input Area -->
+      <div class="chat-input-area">
+        <!-- File Upload Display -->
+        <div class="file-preview" id="filePreview"></div>
+
+        <div class="input-controls">
+          <!-- Export Dropdown -->
+          <div class="export-dropdown">
+            <button class="icon-btn export-toggle" title="Export">
+              <i class="fa fa-download"></i>
+            </button>
+            <div class="export-options">
+              <button id="exportPdfBtn" title="Export as PDF">
+                <i class="fas fa-file-pdf"></i> PDF
+              </button>
+              <button id="exportExcelBtn" title="Export as Excel">
+                <i class="fas fa-file-excel"></i> Excel
+              </button>
+              <button id="exportCsvBtn" title="Export as CSV">
+                <i class="fas fa-file-csv"></i> CSV
+              </button>
+            </div>
+          </div>
+
+          <!-- Attachment Button -->
+          <label for="fileInput" class="icon-btn" title="Attach file">
+            <i class="fas fa-paperclip"></i>
+          </label>
+          <input id="fileInput" type="file" style="display: none;" multiple accept=".pdf,.doc,.docx,.txt,.xlsx,.xls,.png,.jpg,.jpeg" />
+
+          <!-- Message Input -->
+          <textarea
+            id="userInput"
+            placeholder="Type your message..."
+            rows="1"
+            maxlength="5000"
+          ></textarea>
+
+          <!-- Mic Button -->
+          <button id="micBtn" class="icon-btn" title="Voice input">
+            <i class="fas fa-microphone"></i>
+          </button>
+
+          <!-- Send Button -->
+          <button id="sendBtn" class="btn-send" title="Send message">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-    <div class="chat-input-area">
-        <!-- Export  -->
-         <div class="export-dropdown">
-    <button class="icon-button export-toggle" title="Export">
-      <i class="fa fa-download" aria-hidden="true"></i>
-    </button>
-   
-    <div class="export-options">
-      <button id="exportPdfBtn" title="Export as PDF"><i class="fas fa-file-pdf"></i></button>
-      <button id="exportExcelBtn" title="Export as Excel"><i class="fas fa-file-excel"></i></button>
-      <button id="exportCsvBtn" title="Export as CSV"><i class="fas fa-file-csv"></i></button>
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Save Chat Modal -->
+  <div class="modal" id="saveChatModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Save Chat</h3>
+        <button class="close-btn" id="closeSaveModal">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="chatNameInput">Chat Name:</label>
+        <input type="text" id="chatNameInput" placeholder="Enter chat name..." />
+      </div>
+      <div class="modal-footer">
+        <button class="btn-cancel" id="cancelSave">Cancel</button>
+        <button class="btn-primary" id="confirmSave">Save</button>
+      </div>
     </div>
-    </div>
-
-      <!-- Attachment Icon -->
-      <label for="fileInput" class="icon-button" title="Attach file">
-        <i class="fas fa-paperclip"></i>
-      </label>
-      <input id="fileInput" type="file" style="display: none;"  multiple accept=".pdf,.doc,.docx,.txt,.xlsx,.xls,.png,.jpg,.jpeg" />
-
-      <!-- Message input -->
-      <textarea id="userInput" spellcheck="true" autocorrect="on" autocomplete="on" placeholder="Type your message..." rows="2"></textarea>
-      
-
-   
-      <!-- Mic Icon -->
-      <button id="micBtn" class="icon-button" title="Speak your message">
-        <i class="fas fa-microphone"></i>
-      </button>
-
-      <!-- Send Button -->
-      <button id="sendBtn" aria-label="Send message" title="Send message">
-        <!-- Paper plane SVG icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
-          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-        </svg>
-      </button>
-    </div>
-  
-    </div>
-
-
   </div>
 
   <script src="{{ url_for('static', filename='script.js') }}"></script>
-   <script src="{{ url_for('static', filename='typo.js') }}"></script>
-   <script>
-    lottie.loadAnimation({
-      container: document.getElementById('lottie-container'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      
-      path: "{{ url_for('static', filename='loading.json') }}"
-    });
-    animation.addEventListener('DOMLoaded', () => {
-    // Traverse animation elements and change fill color
-    const svgElements = document.querySelectorAll('#lottie-container svg path');
-    svgElements.forEach(el => {
-      el.setAttribute('fill', '#ff0000');  // Red color
-    });
-  });
-  </script>
+  <script src="{{ url_for('static', filename='typo.js') }}"></script>
 </body>
 </html>
