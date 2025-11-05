@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, session
 import os
 import openai
 import pyodbc
@@ -7,24 +7,39 @@ import json
 from filedownload import download_uploaded_file
 import export
 from new import (detectpattern,is_sql_safe)
+import logging
+from datetime import datetime
 
-
-
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-app.secret_key = "supersecret123!@#"
+app.secret_key = os.environ.get("SECRET_KEY", "supersecret123!@#")
+
 # Initialize OpenAI client with correct model
 client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
- 
-# Connect to SQL Server using SQL Server Authentication
-conn = pyodbc.connect(
-    "DRIVER={SQL Server};"
-    "SERVER=x.x.x.x;"
-    "DATABASE=1234567;"
-    "UID=user;"
-    "PWD=123;"
-)
-cursor = conn.cursor()
+
+# Connect to SQL Server using SQL Server Authentication with environment variables
+try:
+    conn = pyodbc.connect(
+        f"DRIVER={{SQL Server}};"
+        f"SERVER={os.environ.get('SQL_SERVER', 'x.x.x.x')};"
+        f"DATABASE={os.environ.get('SQL_DATABASE', '1234567')};"
+        f"UID={os.environ.get('SQL_UID', 'user')};"
+        f"PWD={os.environ.get('SQL_PWD', '123')};"
+    )
+    cursor = conn.cursor()
+    logger.info("Database connection established successfully")
+except Exception as e:
+    logger.error(f"Failed to connect to database: {str(e)}")
+    cursor = None
+
+# Chat history storage (in-memory, replace with database for production)
+chat_histories = {}
 
 
 
@@ -33,6 +48,74 @@ cursor = conn.cursor()
 def index():
     return render_template('index.html')
 
+# Chat history management endpoints
+@app.route('/save-chat', methods=['POST'])
+def save_chat():
+    """Save current chat conversation"""
+    try:
+        data = request.json
+        chat_id = data.get('chat_id', datetime.now().strftime('%Y%m%d_%H%M%S'))
+        chat_name = data.get('chat_name', f'Chat {chat_id}')
+        messages = data.get('messages', [])
+
+        chat_histories[chat_id] = {
+            'id': chat_id,
+            'name': chat_name,
+            'messages': messages,
+            'timestamp': datetime.now().isoformat()
+        }
+
+        logger.info(f"Chat saved: {chat_id}")
+        return jsonify({'success': True, 'chat_id': chat_id})
+    except Exception as e:
+        logger.error(f"Error saving chat: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/load-chat/<chat_id>', methods=['GET'])
+def load_chat(chat_id):
+    """Load a saved chat conversation"""
+    try:
+        if chat_id in chat_histories:
+            logger.info(f"Chat loaded: {chat_id}")
+            return jsonify(chat_histories[chat_id])
+        else:
+            return jsonify({'error': 'Chat not found'}), 404
+    except Exception as e:
+        logger.error(f"Error loading chat: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/list-chats', methods=['GET'])
+def list_chats():
+    """List all saved chats"""
+    try:
+        chats = [
+            {
+                'id': chat_id,
+                'name': data['name'],
+                'timestamp': data['timestamp'],
+                'message_count': len(data['messages'])
+            }
+            for chat_id, data in chat_histories.items()
+        ]
+        chats.sort(key=lambda x: x['timestamp'], reverse=True)
+        return jsonify(chats)
+    except Exception as e:
+        logger.error(f"Error listing chats: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/delete-chat/<chat_id>', methods=['DELETE'])
+def delete_chat(chat_id):
+    """Delete a saved chat"""
+    try:
+        if chat_id in chat_histories:
+            del chat_histories[chat_id]
+            logger.info(f"Chat deleted: {chat_id}")
+            return jsonify({'success': True})
+        else:
+            return jsonify({'error': 'Chat not found'}), 404
+    except Exception as e:
+        logger.error(f"Error deleting chat: {str(e)}")
+        return jsonify({'error': str(e)}), 500
 
 @app.route("/download-file/<path:filename>")
 def download_file(filename):
